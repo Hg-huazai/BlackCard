@@ -64,42 +64,20 @@
       <view class="item-right">全部 <text decode>&gt;</text></view>
       <view class="clear"></view>
     </view>
+    <!-- 日期滚动 -->
     <scroll-view scroll-x="true" class="content3-item2">
       <view class="date">
-        <view class="date-item">
-          <view class="date-item1">今天</view>
-          <view class="date-item2">02月9日</view>
-        </view>
-        <view class="date-item">
-          <view class="date-item1">周一</view>
-          <view class="date-item2">02月10日</view>
-        </view>
-        <view class="date-item">
-          <view class="date-item1">周二</view>
-          <view class="date-item2">02月11日</view>
-        </view>
-        <view class="date-item">
-          <view class="date-item1">周三</view>
-          <view class="date-item2">02月12日</view>
-        </view>
-        <view class="date-item">
-          <view class="date-item1">周四</view>
-          <view class="date-item2">02月13日</view>
-        </view>
-        <view class="date-item">
-          <view class="date-item1">周五</view>
-          <view class="date-item2">02月14日</view>
-        </view>
-        <view class="date-item">
-          <view class="date-item1">周六</view>
-          <view class="date-item2">02月15日</view>
+        <view class="date-item {{index===currentIndexDate?'active':''}}" wx:for="{{date}}" wx:key="{{index}}" bindtap="datetap" data-index="{{index}}">
+          <view class="date-item1">{{item.week}}</view>
+          <view class="date-item2">{{item.time}}</view>
         </view>
       </view>
     </scroll-view>
+    <!-- food滚动 -->
     <view class="content3-item3">
-      <scroll-view scroll-x="true" class="scroll">
+      <scroll-view scroll-x="true" class="scroll" bindscroll="foodscroll" bindtap="datetap1" scroll-left="{{width*currentIndexDate}}">
         <view class="scroll-item">
-          <view class="text"><text>48 </text>家门店5折</view>
+          <view class="text"><text>今天</text>家门店5折</view>
           <view class="food">
             <view class="food-box">
               <view class="food-item">
@@ -148,248 +126,296 @@
           </view>
         </view>
         <view class="scroll-item">
-          <view class="text"><text>48 </text>家门店5折</view>
+          <view class="text"><text>周一</text>家门店5折</view>
           <view class="food">
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
           </view>
         </view>
         <view class="scroll-item">
-          <view class="text"><text>48 </text>家门店5折</view>
+          <view class="text"><text>周二</text>家门店5折</view>
           <view class="food">
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
           </view>
         </view>
         <view class="scroll-item">
-          <view class="text"><text>48 </text>家门店5折</view>
+          <view class="text"><text>周三</text>家门店5折</view>
           <view class="food">
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
           </view>
         </view>
         <view class="scroll-item">
-          <view class="text"><text>48 </text>家门店5折</view>
+          <view class="text"><text>周四</text>家门店5折</view>
           <view class="food">
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
           </view>
         </view>
         <view class="scroll-item">
-          <view class="text"><text>48 </text>家门店5折</view>
+          <view class="text"><text>周五</text>家门店5折</view>
           <view class="food">
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
           </view>
         </view>
         <view class="scroll-item">
-          <view class="text"><text>48 </text>家门店5折</view>
+          <view class="text"><text>周六</text>家门店5折</view>
           <view class="food">
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
-            <view class="food-item">
-              <view class="img">
-                <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+            <view class="food-box">
+              <view class="food-item">
+                <view class="img">
+                  <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">椰子鸡</view>
+                <view class="classfly">港式火锅</view>
+                <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
+                <view class="cheap">全网底价</view>
               </view>
-              <view class="name">椰子鸡</view>
-              <view class="classfly">港式火锅</view>
-              <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
-              <view class="cheap">全网底价</view>
             </view>
           </view>
         </view>
@@ -401,13 +427,13 @@
   <view class="content4">
     <swiper indicator-dots="true" autoplay="true" circular="true" class="swiper">
       <swiper-item>
-        <image src="../../../static/img/home/images/lunbo_03.png"></image>
+        <image src="../../../static/img/home/images/lunbo_03.png" mode="widthFix"></image>
       </swiper-item>
       <swiper-item>
-        <image src="../../../static/img/home/images/lunbo_03.png"></image>
+        <image src="../../../static/img/home/images/lunbo_03.png" mode="widthFix"></image>
       </swiper-item>
       <swiper-item>
-        <image src="../../../static/img/home/images/lunbo_03.png"></image>
+        <image src="../../../static/img/home/images/lunbo_03.png" mode="widthFix"></image>
       </swiper-item>
     </swiper>
   </view>

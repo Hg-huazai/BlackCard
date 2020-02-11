@@ -1,2 +1,105 @@
 <!--pages/group/index/index.wxml-->
-<text>pages/group/index/index.wxml</text>
+<view>
+  <view class="content1">
+    <view class="content1-item1">
+      <view class="group left-l">
+        <view class="text1">进 <text>红包群</text></view>
+        <view class="text2">省钱又赚钱</view>
+      </view>
+      <view class="img right-r">
+        <image src="../../../static/img/group/images/group_03.png" mode="aspectFit"></image>
+      </view>
+      <view class="clear"></view>
+    </view>
+    <view class="content1-item2">
+      <view class="item"> 
+        <view class="img">
+          <image src="../../../static/img/group/images/true_07.png"></image>
+        </view>
+        <view class="text">天天红包雨</view>
+      </view>
+      <view class="item"> 
+        <view class="img">
+          <image src="../../../static/img/group/images/true_07.png"></image>
+        </view>
+        <view class="text">天天红包雨</view>
+      </view>
+      <view class="item"> 
+        <view class="img">
+          <image src="../../../static/img/group/images/true_07.png"></image>
+        </view>
+        <view class="text">天天红包雨</view>
+      </view>
+    </view>
+  </view>
+  <view class="content2">
+    <view class="recommend">
+      <view class="img">
+        <image src="../../../static/img/group/images/recommend_07.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">好群推荐</view>
+    </view>
+    <view class="groups">
+      <view class="groups-item">
+        <view class="img">
+          <image src="../../../static/img/group/images/group_07.png" mode="aspectFit"></image>
+        </view>
+        <view class="name">饼干星星</view>
+        <view class="monye">
+          <text>人民广场</text>
+          <text>蛋糕</text>
+          <text>￥99/人</text>
+        </view>
+        <view class="date">进群每天抢红包</view>
+        <view class="now">立即进群</view>
+      </view>
+    </view>
+  </view>
+  <view class="content3">
+    <view class="text">免费进群享福利</view>
+    <view class="welfares">
+      <view class="welfares-item">
+        <view class="date">天天红包雨</view>
+        <view class="img">
+          <image src="../../../static/img/group/images/group_11.png" mode="aspectFit"></image>
+        </view>
+        <view class="text1">抢出好手气</view>
+        <view class="text2">指定时间开枪，买单抵现红包</view>
+        <view class="float">即将上线</view>
+      </view>
+      <view class="welfares-item">
+        <view class="date">求红包能省钱</view>
+        <view class="img">
+          <image src="../../../static/img/group/images/group_13.png" mode="aspectFit"></image>
+        </view>
+        <view class="text1">抢出好手气</view>
+        <view class="text2">指定时间开枪，买单抵现红包</view>
+        <view class="float">即将上线</view>
+      </view>
+      <view class="welfares-item">
+        <view class="date">送红包能赚钱</view>
+        <view class="img">
+          <image src="../../../static/img/group/images/group_17.png" mode="aspectFit"></image>
+        </view>
+        <view class="text1">抢出好手气</view>
+        <view class="text2">指定时间开枪，买单抵现红包</view>
+        <view class="float">即将上线</view>
+      </view>
+      <view class="welfares-item">
+        <view class="date">商家活动优先享</view>
+        <view class="img">
+          <image src="../../../static/img/group/images/group_18.png" mode="aspectFit"></image>
+        </view>
+        <view class="text1">抢出好手气</view>
+        <view class="text2">指定时间开枪，买单抵现红包</view>
+        <view class="float">即将上线</view>
+      </view>
+    </view>
+  </view>
+  <view class="content4">
+    <view class="img">
+        <image src="../../../static/img/group/images/group_22.png" mode="aspectFit"></image>
+      </view>
+  </view>
+  
+</view>

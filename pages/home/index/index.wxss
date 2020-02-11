@@ -118,6 +118,7 @@ page {
   padding-top: 6px;
 }
 
+/* 日期滚动 */
 .content3 .content3-item2 {
   padding: 10px 10px;
   background-color: #f4f4f4;
@@ -130,6 +131,12 @@ page {
 .content3 .content3-item2 .date .date-item {
   display: inline-block;
   width: 20%;
+}
+.content3 .content3-item2 .date .date-item.active {
+  color: #fff;
+  background-color: pink;
+  padding: 5px 0;
+  border-radius: 10px;
 }
 .content3 .content3-item2 .date .date-item .date-item1 {
   font-weight: bold;
@@ -150,9 +157,10 @@ page {
 }
 .content3 .content3-item3 .scroll .scroll-item  {
   display: inline-block;
-  width: 90%;
+  width: 95%;
   background-color: #fff;
   margin: 0 5px;
+  box-sizing: border-box;
 }
 .content3 .content3-item3 .scroll .scroll-item:nth-child(1)  {
   margin-left: 10px;
@@ -169,15 +177,18 @@ page {
   background-color: pink;
   width: 100%;
 }
-
+.content3 .content3-item3 .food .food-box {
+  width: 50%;
+  float: left;
+  
+}
 .content3 .content3-item3 .food .food-item {
   font-size: 12px;
-  float: left;
-  /* padding-left: 10px;
-  padding-bottom: 10px; */
-  width: 50%;
+  padding-bottom: 10px;
+  width: 130px;
   box-sizing: border-box;
   margin: 0 auto;
+  
   
 }
 .content3 .content3-item3 .food .food-item .img image {
@@ -203,13 +214,16 @@ page {
 }
 
 .content4 {
-  /* padding: 10px; */
+  padding: 10px;
 }
 .content4 .swiper {
-  /* height: 120px; */
+  height: 116px;
+  width: 100%;
+  text-align: center;
 }
-.content4 .swiper-item image {
+.content4 .swiper-item .image {
   /* width: 100%; */
+  /* height: 100%; */
 }
 
 .content5 {
@@ -218,7 +232,7 @@ page {
 }
 .content5 .content5-item1 {
   display: flex;
-  padding: 20px 0;
+  padding-bottom: 10px;
 }
 .content5 .content5-item1 .content5-item {
   flex: 1;

@@ -5,6 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
+    date:[
+      {week:'今天',time:'02月9日'},
+      { week: '周一', time: '02月9日' },
+      { week: '周二', time: '02月10日' },
+      { week: '周三', time: '02月11日' },
+      { week: '周四', time: '02月12日' },
+      { week: '周五', time: '02月13日' },
+      { week: '周六', time: '02月14日' }
+    ],
+    currentIndexDate: 0,
+    width: ''
 
   },
 
@@ -62,5 +73,34 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  datetap(e) {
+    console.log(e.currentTarget.dataset.index),
+      this.setData({
+        currentIndexDate: e.currentTarget.dataset.index,
+        width: wx.getSystemInfoSync().windowWidth,
+      })
+  },
+  // datetap (e) {
+  //   console.log(2),
+  //   this.setData ({
+  //     currentIndexDate: e.currentTarget.dataset.index,
+  //   }),
+  //   this.foodscroll(function (e) {
+  //     console.log(that);
+  //   })
+  // }
+
+  
+  // function datetap(){
+  //   console.log(1)
+  //   this.foodscroll()
+  // },
+  // datetap: function (e) {
+  //   console.log(1)
+  //   this.foodscroll()
+  // },
+  foodscroll(that) {
+    console.log(that)
   }
 })

@@ -1,0 +1,85 @@
+<!--pages/home/details/details.wxml-->
+<view>
+<!-- 门面轮播 -->
+  <view class="content1">
+    <swiper indicator-dots="true" autoplay="true" circular="true" class="swiper">
+      <swiper-item>
+        <image src="../../../static/img/home/details/images/lunbo.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../../static/img/home/details/images/lunbo.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../../static/img/home/details/images/lunbo.png"></image>
+      </swiper-item>
+    </swiper>
+    <view class="info">
+      <view class="name">仙潮牛肉餐饮</view>
+      <view class="monye">
+        <text class="text1">5.0分</text>
+        <text class="text2">￥50/人</text>
+        <text class="text3">港式火锅</text>
+      </view>
+      <view class="characteristic">每天一头牛，新鲜不隔夜，</view>
+    </view>
+    <view class="bottom">
+      <view class="b-left">
+        <view class="date">
+          <view class="img">
+            <image src="../../../static/img/home/details/images/info_03.png" mode="aspectFit"></image>
+          </view>
+          <view class="date-item">营业中 <text>10：00-21：30</text></view>
+        </view>
+        <view class="date">
+          <view class="img">
+            <image src="../../../static/img/home/details/images/info_05.png" mode="aspectFit"></image>
+          </view>
+          <view class="date-item">阳江市阳东区</view>
+        </view>
+        <view class="distance">距离您25km</view>
+      </view>
+      <view class="b-right img">
+        <image src="../../../static/img/home/details/images/info_07.png" mode="aspectFit"></image>
+      </view>
+      <view class="clear"></view>
+    </view>
+  </view>
+  <view class="content2">
+    <view class="content2-item1">买单折扣</view>
+    <view class="content2-item2">
+      <view class="top">
+        <view class="left">黑卡5折 <text>当前可享</text></view>
+        <view class="right">5折</view>
+        <view class="clear"></view>
+      </view>
+      <view class="bottom">
+        <view class="left">
+          <view class="time"> <text>时间</text>每天</view>
+          <view class="tip"> <text>说明</text>仅限新鲜牛肉类</view>
+        </view>
+        <view class="right">详情</view>
+        <view class="clear"></view>
+      </view>
+    </view>
+    <view class="content2-item2 item3">
+      <view class="top">
+        <view class="left">平日折扣</view>
+        <view class="right">8.8折</view>
+        <view class="clear"></view>
+      </view>
+      <view class="bottom">
+        <view class="left">
+          <view class="time"> <text>时间</text>每天</view>
+          <view class="tip"> <text>说明</text>仅限新鲜牛肉类</view>
+        </view>
+        <view class="right">详情</view>
+        <view class="clear"></view>
+      </view>
+    </view>
+  </view>
+  <view class="content1">2</view>
+  <view class="content1">2</view>
+  <view class="content1">2</view>
+  <view class="content1">2</view>
+  <view class="content1">2</view>
+</view>

@@ -2,6 +2,7 @@
   "pages": [
     
     "pages/home/index/index",
+    "pages/home/details/details",
     "pages/discount/index/index",
     "pages/group/index/index",
     "pages/member/index/index",
@@ -12,7 +13,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "小黑卡",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
