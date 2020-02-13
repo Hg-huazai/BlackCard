@@ -5,8 +5,45 @@ page {
 .clear {
   clear: both;
 }  
+
+.city {
+  background-color: #fff;
+  padding: 20px;
+}
+.city .city-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  font-size: 14px;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+}
+.city .input-item {
+  display: inline-block;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  width: 60%;
+  margin-left: 10px;
+  vertical-align: middle;
+  padding: 5px 10px 5px 40px;
+  font-size: 14px;
+  position: relative;
+  /* box-sizing: border-box; */
+}
+.city .input-item image {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+/* 小黑卡用户   非会员 */
 .content1 {
-   margin: 0 10px;
+   padding: 0 10px;
+   background: -webkit-linear-gradient(top,#fff,#f4f4f4);
+   display: none;
 }
 .content1 .information {
  background-color: #3d2f49;
@@ -66,6 +103,88 @@ page {
 .content1 .discount .discount-right {
   float: right;
 }
+
+/* 小黑卡用户   会员 */
+.vip {
+   padding: 0 10px;
+   background: -webkit-linear-gradient(top,#fff,#f4f4f4);
+}
+.vip .information {
+ background-color: #3d2f49;
+   color: #cfbc9c;
+   padding: 20px 15px 20px 15px;
+   border-radius: 12px 12px 0 0 ;
+}
+.vip .information .img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.vip .information .img image {
+  width: 50px;
+  height: 50px;
+}
+.vip .information .username {
+  display: inline-block;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+.vip .information .username .user {
+  font-size: 12px;
+  font-weight: bold;
+}
+.vip .information .username .user .heika {
+  font-size: 10px;
+  display: inline-block;
+  background-color: #d8c195;
+  color: #000;
+  margin-left: 10px;
+  padding: 0 3px;
+  border-radius: 6px;
+}
+.vip .information .username .member {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+.vip .information .cheap {
+  font-size: 14px;
+  font-weight: bold;
+}
+.vip .information .cheap .money {
+  display: inline-block;
+  width: 70%;
+}
+.vip .information .cheap .money .integral {
+  display: inline-block;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.vip .information .cheap .money .progress .jifen {
+  border: 2px solid #fde1b1;
+  border-radius: 5px;
+}
+.vip .information .cheap .member {
+  display: inline-block;
+  float: right;
+  color: #000;
+  padding: 0 5px;
+  border-radius: 10px;
+  background-color: #f2dcb3;
+}
+.vip .discount {
+  background-color: #000;
+  color: #89878c;
+  font-size: 10px;
+  padding: 15px 8px 10px;
+  border-radius: 0 0 12px 12px;
+}
+.vip .discount .discount-left {
+  float: left;
+}
+.vip .discount .discount-right {
+  float: right;
+}
+
 
 /* 食品分类 */
 .content2 {
@@ -157,13 +276,14 @@ page {
 }
 .content3 .content3-item3 .scroll .scroll-item  {
   display: inline-block;
-  width: 95%;
+  width: 320px;
   background-color: #fff;
-  margin: 0 5px;
+  /* margin: 0 5px; */
   box-sizing: border-box;
+  margin-left: 10px;
 }
 .content3 .content3-item3 .scroll .scroll-item:nth-child(1)  {
-  margin-left: 10px;
+  
 }
 .content3 .content3-item3 .scroll .scroll-item .text {
   font-size: 8px;
@@ -178,7 +298,7 @@ page {
   width: 100%;
 }
 .content3 .content3-item3 .food .food-box {
-  width: 50%;
+  /* width: 50%; */
   float: left;
   
 }
@@ -187,7 +307,7 @@ page {
   padding-bottom: 10px;
   width: 130px;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin-left: 20px;
   
   
 }
@@ -221,9 +341,9 @@ page {
   width: 100%;
   text-align: center;
 }
-.content4 .swiper-item .image {
-  /* width: 100%; */
-  /* height: 100%; */
+.content4 swiper-item image {
+  width: 100%;
+  height: 150px;
 }
 
 .content5 {
@@ -339,5 +459,124 @@ page {
   margin-right: 5px;
   padding: 0 5px;
 }
+
+/* 秒杀 */
+.content8 .content8-item1 {
+  padding: 10px 10px;
+}
+.content8 .content8-item1 .item-left {
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content8 .content8-item1 .item-left text {
+  font-size: 12px;
+  display: inline-block;
+  background-color: #dfc080;
+  color: #fff;
+  padding: 3px 15px;
+  border-radius: 10px 10px 10px 0;
+}
+.content8 .content8-item1 .item-right {
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 6px;
+}
+
+
+.content8 {
+  background: linear-gradient(#fff, #f4f4f4);
+  padding: 20px 10px;
+  padding-top: 0;
+}
+.content8 .content8-top{
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.content8 .content8-item {
+  white-space: nowrap;
+}
+.content8 .content8-item .scroll-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.content8 .content8-item .scroll-item .img {
+ position: relative；
+}
+.content8 .content8-item .scroll-item .img .all{
+ position: absolute;
+ top: 0;
+ margin: 10px;
+ padding: 0 5px;
+ color: #fff;
+ font-size: 10px;
+ background-color: rgba(0, 0, 0, .5);
+ border-radius: 10px;
+}
+.content8 .content8-item .scroll-item .img image {
+ width: 200px;
+}
+.content8 .content8-item .scroll-item .bottom {
+ background-color: #fff;
+ border-radius: 0 0 10px 10px;
+ padding: 10px 5px;
+}
+.content8 .content8-item .scroll-item .bottom .name {
+ color: #666666;
+ font-size: 12px;
+}
+.content8 .content8-item .scroll-item .bottom .choice {
+ font-size: 14px;
+}
+.content8 .content8-item .scroll-item .bottom .text {
+ font-size: 14px;
+}
+.content8 .content8-item .scroll-item .bottom .text .text1 {
+ font-size: 12px;
+ color: #fa4033;
+
+}
+.content8 .content8-item .scroll-item .bottom .text .text2 {
+ font-size: 20px;
+ color: #fa4033;
+ font-weight:bold; 
+}
+
+.content8 .content8-item .scroll-item .bottom .text .text3 {
+ font-size: 12px;
+ color: #aaaaaa;
+ margin-left: 5px;
+ text-decoration:line-through;
+}
+
+.content8 .content8-item .scroll-item .bottom .text .text4 {
+ font-size: 14px;
+ font-weight:bold; 
+ color: #aaaaaa;
+ text-decoration:line-through;
+}
+
+.content8 .content8-item .scroll-item .bottom .text .text5 {
+ font-size: 10px;
+ display: inline-block;
+ border: 1px solid #fb5346;
+ color: #fb5346;
+ padding: 0 5px;
+ border-radius: 4px;
+ margin-left: 5px;
+}
+.content8 .content8-item .scroll-item .bottom .miaosha {
+ background-color: #ff1c0b;
+ font-size: 10px;
+ color: #fff;
+ text-align: center;
+ padding: 3px 0;
+ border-radius: 10px;
+ margin-top: 5px;
+}
+
 
 

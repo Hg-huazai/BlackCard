@@ -1,0 +1,17 @@
+<!--pages/home/xiala/xiala.wxml-->
+<text>pages/home/xiala/xiala.wxml</text>
+<view class='list-msg'>
+    <view class='list-msg1'>
+    </view>
+<!--下拉框  -->
+    <view class='list-msg2' bindtap='bindShowMsg'>
+        <text>{{tihuoWay}}</text>
+        <image style='height:20rpx;width:20rpx;' src='/images/down.png'></image>
+    </view>
+<!-- 下拉需要显示的列表 -->
+    <view class="select_box" wx:if="{{select}}">
+        <view class="select_one" bindtap="mySelect" data-name="重庆分店">重庆分店</view>
+        <view class="select_one" bindtap="mySelect" data-name="东莞南城分店">东莞南城分店</view>
+        <view class="select_one" bindtap="mySelect" data-name="东莞总店">东莞总店</view>
+    </view>
+</view>

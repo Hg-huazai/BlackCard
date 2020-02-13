@@ -15,7 +15,8 @@ Page({
       { week: '周六', time: '02月14日' }
     ],
     currentIndexDate: 0,
-    width: ''
+    width: '',
+    city: "阳江"
 
   },
 

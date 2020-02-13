@@ -1,0 +1,77 @@
+<!--pages/home/Seckill/seckill.wxml-->
+<view>
+  <view class="content1">
+    <swiper class="swiper" indicator-dots="true" autoplay="true" circular="true">
+      <swiper-item>
+        <image src="../../../static/img/home/seckill/images/food_02.png" mode="scaleToFill"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../../static/img/home/seckill/images/food_02.png" mode="scaleToFill"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../../static/img/home/seckill/images/food_02.png" mode="scaleToFill"></image>
+      </swiper-item>
+    </swiper>
+    <view class="monye">
+      <view class="left">
+        <text class="text1">￥</text>
+        <text class="text2">1</text>
+        <text class="text3">.80</text>
+      </view>
+      <view class="center">
+        <view class="huiyuan">会员价</view>
+        <view class="delete">￥20.00</view>
+      </view>
+      <view class="right">
+        <view class="text1">限量秒杀</view>
+        <view class="text2">还剩80份</view>
+      </view>
+      <view class="clear"></view>
+    </view>
+    <view class="drinks">饮品五选一</view>
+    <view class="box">
+      <view class="tip">
+        <view class="img">
+          <image src="../../../static/img/home/seckill/images/true_05.png" mode="widthFix"></image>
+        </view>
+        <view class="anytime">随时可退</view>
+      </view>
+      <view class="tip">
+        <view class="img">
+          <image src="../../../static/img/home/seckill/images/true_05.png" mode="widthFix"></image>
+        </view>
+        <view class="anytime">过期自动退款</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 支持到店使用 -->
+  <view class="content2">
+    <view class="item1">支持到店使用</view>
+    <view class="item2">适用于以下门店</view>
+    <view class="item3">
+      <view class="img">
+        <image src="../../../static/img/home/seckill/images/food_05.png" mode="widthFix"></image>
+      </view>
+      <view class='center'>
+        <view class="name">西美喜星座茶饮(祖庙店)</view>
+        <view class="stor">祖庙</view>
+        <view class="number"> ￥0/人</view>
+      </view>
+      <view class="right">
+        <view class="img1">
+          <image src="../../../static/img/home/seckill/images/contact_12.png" mode="widthFix"></image>
+        </view>
+        <view class="contact">联系商家</view>
+      </view>
+      <view class="clear"></view>
+    </view>
+  </view>
+  <view class="content1">
+        11
+  </view>
+  <view class="content1">
+        11
+  </view>
+    
+</view>

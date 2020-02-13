@@ -3,6 +3,9 @@
     
     "pages/home/index/index",
     "pages/home/details/details",
+    "pages/home/Seckill/seckill",
+    "pages/home/xiala/xiala",
+    "pages/home/city/city",
     "pages/discount/index/index",
     "pages/group/index/index",
     "pages/member/index/index",
