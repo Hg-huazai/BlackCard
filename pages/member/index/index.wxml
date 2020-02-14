@@ -13,6 +13,42 @@
     <view class="right">开通会员</view>
     <view class="clear"></view>
   </view>
+
+  <view class="content2">
+    <view class="left">会员特权</view>
+    <view class="center">
+      <view class="item">
+        <view class="img">
+          <image src="../../../static/img/member/images/huiyuan_03.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">5折买单</view>
+      </view>
+      <view class="item">
+        <view class="img">
+          <image src="../../../static/img/member/images/huiyuan_05.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">特价套餐</view>
+      </view>
+      <view class="item">
+        <view class="img">
+          <image src="../../../static/img/member/images/huiyuan_07.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">积分兑换</view>
+      </view>
+      <view class="item">
+        <view class="img">
+          <image src="../../../static/img/member/images/huiyuan_09.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">会员福利</view>
+      </view>
+    </view>
+    <view class="right">
+      <view class="sanjiao">
+        <!-- <image src="../../../static/img/member/images/huiyuan_12.png" mode="aspectFit"></image> -->
+      </view>
+    </view>
+    <view class="clear"></view>
+  </view>
   <view class="content3">
     <view class="item">
       <view class="img">
@@ -108,6 +144,8 @@
       <image src="../../../static/img/member/images/evaluate_03.png" mode="aspectFit"></image>
     </view>
   </view>
+
+  <!-- 人气评价 -->
   <view class="content6">
     <view class="evaluate">人气评价</view>
     <view class="popularity">
@@ -134,7 +172,7 @@
       <view class="popularity-item">
         <view class="popularity-item1">
           <view class="img">
-            <image src="../../../static/img/member/images/Popularity_03.png" mode="aspectFit"></image>
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
           </view>
           <view class="commen">环境真好环境真好环境真好</view>
           <view class="user">
@@ -154,13 +192,13 @@
       <view class="popularity-item">
         <view class="popularity-item1">
           <view class="img">
-            <image src="../../../static/img/member/images/Popularity_03.png" mode="aspectFit"></image>
+            <image src="../../../static/img/member/images/Popularity_03.png" mode="widthFix"></image>
           </view>
           <view class="commen">环境真好环境真好环境真好</view>
           <view class="user">
             <view class="left">
               <view class="img">
-                <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                <image src="../../../static/img/member/images/xiaoheika_03.png" mode="widthFix"></image>
               </view>
               <view class="name">小爱</view>
             </view>
@@ -174,7 +212,7 @@
       <view class="popularity-item">
         <view class="popularity-item1">
           <view class="img">
-            <image src="../../../static/img/member/images/Popularity_03.png" mode="aspectFit"></image>
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="aspectFit"></image>
           </view>
           <view class="commen">环境真好环境真好环境真好</view>
           <view class="user">

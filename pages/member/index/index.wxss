@@ -5,11 +5,15 @@
 .content {
   padding: 0 10px;
   background-color: #f4f4f4;
+  padding-top: 10px;
+  
 }
 .content1 {
   padding: 10px;
   background-color: #fff;
   margin-bottom: 20px;
+  /* margin-top: 10px; */
+  border-radius: 10px;
 }
 .content1 .information {
    float: left;
@@ -45,6 +49,69 @@
   border-radius: 7px;
   float: right;
 }
+
+/* 会员特权 */
+.content2 {
+  margin: 20px 0;
+  background: -webkit-linear-gradient(top,#49374d, #1a0c23);
+  color: #fff;
+  padding: 0 25px;
+  height: 83px;
+  border-radius: 20px 20px 0 0;
+}
+.content2 .left {
+  float: left;
+  width: 20%;
+  color: #3f3035;
+  font-weight: bold;
+  /* display: inline-block; */
+  height: 100%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  font-size: 24px;
+  text-align: center;
+  background: -webkit-linear-gradient(top,#fbf0da, #e2bf89);
+}
+.content2 .center{
+  float: left;
+  width: 72%;
+  display: flex;
+  padding: 14px 0;
+  box-sizing: border-box;
+  margin-right: 3px;
+}
+.content2 .center .item{
+  flex: 1;
+  text-align: center;
+}
+.content2 .center .item .img{
+  margin-bottom: 3px;
+}
+.content2 .center .item image{
+  width: 30px;
+  height: 30px;
+}
+.content2 .center .item .text{
+  font-size: 10px;
+  color: #d3bdb0;
+}
+.content2 .right{
+  float: right;
+  /* width: 10%; */
+  padding-top: 37px;
+  
+}
+.content2 .right .sanjiao {
+  border: 8px solid transparent;
+  border-bottom-color: #ebe3be;
+  float: right;
+  
+  transform:rotate(90deg);
+}
+/* .content2 .right .img image{
+  width: 15px;
+  height: 15px;
+} */
 
 .content3 {
   border-radius: 10px;
@@ -110,21 +177,22 @@
   padding-bottom: 20px;
 }
 .content6 .popularity .popularity-itema .img {
+  /* width: 100%; */
 }
 .content6 .popularity .popularity-item .img image {
-  width: 130px;
-  height: 150px;
+  width: 100%;
+  /* height: 150px; */
 }
 
 .content6 .popularity .popularity-item {
   width: 50%;
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
 }
 .content6 .popularity .popularity-item1 {
-  width: 130px%;
+  /* width: 130px%; */
   display: inline-block;
-  float: left;
+  /* float: left; */
   padding: 12px;
 }
 .content6 .popularity .popularity-item .commen {

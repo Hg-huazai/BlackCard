@@ -92,6 +92,20 @@
 					"id": -1,
 					"name": "秒杀",
 					"pathName": "pages/home/Seckill/seckill",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "vip",
+					"pathName": "pages/member/vip/vip",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "会员",
+					"pathName": "pages/member/member/member",
 					"scene": null
 				}
 			]

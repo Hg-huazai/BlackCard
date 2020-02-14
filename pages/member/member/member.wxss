@@ -1,0 +1,241 @@
+/* pages/member/member/member.wxss */
+
+/* 小黑卡用户   非会员 */
+.clear {
+  clear: both;
+}
+.content1 {
+   padding: 0 10px;
+   background: -webkit-linear-gradient(top,#fff,#f4f4f4);
+}
+.content1 .information {
+ background-color: #3d2f49;
+   color: #cfbc9c;
+   padding: 20px 15px 20px 15px;
+   border-radius: 12px;
+}
+.content1 .information .img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content1 .information .img image {
+  width: 50px;
+  height: 50px;
+}
+.content1 .information .username {
+  display: inline-block;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+.content1 .information .username .user {
+  font-size: 14px;
+  font-weight: bold;
+}
+.content1 .information .username .member {
+  display: inline-block;
+  font-size: 12px;
+}
+.content1 .information .cheap {
+  font-size: 14px;
+  font-weight: bold;
+}
+.content1 .information .cheap .money {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.content1 .information .cheap .money1 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.content1 .information .cheap .money text {
+  font-size: 14px;
+}
+.content1 .information .cheap .member {
+  text-align: center;
+}
+.content1 .information .cheap .member .text {
+  display: inline-block;
+  color: #000;
+  padding: 0 5px;
+  border-radius: 20px;
+  background-color: #f2dcb3;
+  padding: 5px 20px;
+  font-size: 14px;
+
+}
+
+/* 开通会员 */
+.content2 {
+  padding: 20px 10px;
+  
+}
+.content2 .top {
+  margin-bottom: 20px;
+}
+.content2 .top .left {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+.content2 .top .right {
+  float: right;
+  font-size: 14px;
+}
+.content2 .bottom {
+  background: -webkit-linear-gradient(top, #d9bba3, #bd9478);
+  border-radius: 20px;
+}
+.content2 .bottom .now {
+  background: -webkit-linear-gradient(left, #f1cd83, #fada9f);
+  color: #7b5b35;
+  font-size: 12px;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 20px 0 20px 0;
+}
+.content2 .bottom .bottom-b {
+  padding:20px 20px 30px 20px;
+}
+.content2 .bottom .bottom-b .img {
+  float: left;
+}
+.content2 .bottom .bottom-b .img image {
+  width: 50px;
+  height: 50px;
+}
+.content2 .bottom .bottom-b .center {
+  float: left;
+  color: #f5f5ed;
+  padding-left: 
+}
+.content2 .bottom .bottom-b .center .text1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.content2 .bottom .bottom-b .center .text2 {
+  font-size: 12px;
+  color: #fbead8;
+  padding-left: 4px;
+}
+.content2 .bottom .bottom-b .center .text2 text {
+  text-decoration:line-through;
+}
+
+.content2 .bottom .bottom-b .right {
+  float: right;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #be896a;
+}
+
+/* 我的福利 */
+.content3 {
+  padding: 0 10px;
+  padding-bottom: 0;
+}
+.content3 .top {
+  margin-bottom: 20px;
+}
+.content3 .top .left {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
+.content3 .top .right {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #f7da9e;
+  border-radius: 10px 10px 10px 0;
+  margin-left: 10px;
+  padding: 2px 10px;
+  font-weight: bold;
+}
+.content3 .bottom-b {
+  padding:20px 5px;
+}
+/* .content3 .bottom-b.now {
+  padding:10px 20px 0 20px;
+} */
+.content3 .bottom-b .img {
+  float: left;
+}
+.content3 .bottom-b .img image {
+  width: 50px;
+  height: 50px;
+}
+.content3 .bottom-b .center {
+  float: left;
+  color: #f5f5ed;
+  padding-left: 
+}
+.content3 .bottom-b .center .text1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.content3 .bottom-b .center .text1.now {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #000;
+  padding-left: 5px;
+}
+.content3 .bottom-b .center .text2 {
+  font-size: 12px;
+  color: #fbead8;
+  padding-left: 4px;
+}
+.content3 .bottom-b .center .text2.now {
+  font-size: 10px;
+  color: #9a9a9a;
+  padding-left: 4px;
+}
+.content3 .bottom-b .center .text2 text {
+  text-decoration:line-through;
+}
+
+.content3 .bottom-b .right {
+  float: right;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #be896a;
+}
+.content3 .bottom-b .right.now {
+  background-color: #b38667;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #fff;
+}
+.content3 .bottom-b .right.nows {
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #b68769;
+  border: 2px solid #b68769;
+}
+.content3 .content3-bottom {
+  display: flex;
+  background: -webkit-linear-gradient(top, #fff, #f7f7f7);
+  
+}
+.content3 .content3-bottom .content3-item {
+  flex: 1;
+  text-align: center;
+}
+.content3 .content3-bottom .content3-item .img image {
+  width: 30px;
+  height: 30px;
+}
+.content3 .content3-bottom .content3-item .text {
+  font-size: 14px;
+}
+

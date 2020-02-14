@@ -314,4 +314,21 @@
       <view class="clear"></view>
     </navigator>
   </view>
+
+  <!-- 底部固定 -->
+  <view class="content9">
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/home/details/images/remmon_03.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">分享</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/home/details/images/remmon_05.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">收藏</view>
+    </view>
+    <view class="item2">立即买单 <text>6.8</text> 折</view>
+  </view>
 </view>

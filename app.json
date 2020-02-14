@@ -9,6 +9,7 @@
     "pages/discount/index/index",
     "pages/group/index/index",
     "pages/member/index/index",
+    "pages/member/member/member",
     "pages/index/index",
     "pages/logs/logs"
 
