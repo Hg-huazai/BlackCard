@@ -7,7 +7,7 @@
         <image src="../../../static/img/home/images/tubiao_03.png" mode="aspectFit"></image>
       </view>
     </navigator>
-    <input class="input-item" placeholder="商家、分类、商圈">
+    <input class="input-item" type="text" placeholder="商家、分类、商圈">
       <image src="../../../static/img/home/images/search_03.png" mode="aspectFit"></image>
     </input>
   </view>
@@ -23,7 +23,7 @@
       </view>
       <view class="cheap">
         <view class="money">预计一年省：￥ <text>2515</text> </view>
-        <view class="member">开通会员</view>
+        <button class="member" size="mini" open-type="getUserInfo" bindgetuserinfo="getPerson">开通会员</button>
       </view>
     </view>
     <view class="discount">
@@ -100,12 +100,12 @@
       </view>
       <view class="name">商圈</view>
     </view>
-    <view class="content2-item">
+    <navigator class="content2-item" url="../classify/classify">
       <view class="img">
         <image src="../../../static/img/home/images/classfly_11.png" mode="aspectFit"></image>
       </view>
       <view class="name">分类</view>
-    </view>
+    </navigator>
     
   </view>
 
@@ -116,7 +116,7 @@
       <view class="clear"></view>
     </view>
     <scroll-view class="content8-item" scroll-x="true">
-      <view class="scroll-item">
+      <navigator class="scroll-item" url="../Seckill/seckill">
         <view class="img">
           <image src="../../../static/img/home/images/miaosha_03.png" mode="widthFix"/>
           <view class="all">仅限80</view>
@@ -135,8 +135,8 @@
           <text decode>06：37：11.0 &nbsp;&nbsp;&nbsp;</text>   限时秒杀
           </view>
         </view>
-      </view>
-      <view class="scroll-item">
+      </navigator>
+      <navigator class="scroll-item" url="../Seckill/seckill">
         <view class="img">
           <image src="../../../static/img/home/images/miaosha_03.png" mode="widthFix"/>
           <view class="all">仅限80</view>
@@ -155,8 +155,8 @@
           <text decode>06：37：11.0 &nbsp;&nbsp;&nbsp;</text>   限时秒杀
           </view>
         </view>
-      </view>
-      <view class="scroll-item">
+      </navigator>
+      <navigator class="scroll-item" url="../Seckill/seckill">
         <view class="img">
           <image src="../../../static/img/home/images/miaosha_03.png" mode="widthFix"/>
           <view class="all">仅限80</view>
@@ -175,8 +175,8 @@
           <text decode>06：37：11.0 &nbsp;&nbsp;&nbsp;</text>   限时秒杀
           </view>
         </view>
-      </view>
-      <view class="scroll-item">
+      </navigator>
+      <navigator class="scroll-item" url="../Seckill/seckill">
         <view class="img">
           <image src="../../../static/img/home/images/miaosha_03.png" mode="widthFix"/>
           <view class="all">仅限80</view>
@@ -195,8 +195,8 @@
           <text decode>06：37：11.0 &nbsp;&nbsp;&nbsp;</text>   限时秒杀
           </view>
         </view>
-      </view>
-      <view class="scroll-item">
+      </navigator>
+      <navigator class="scroll-item" url="../Seckill/seckill">
         <view class="img">
           <image src="../../../static/img/home/images/miaosha_03.png" mode="widthFix"/>
           <view class="all">仅限80</view>
@@ -215,7 +215,7 @@
           <text decode>06：37：11.0 &nbsp;&nbsp;&nbsp;</text>   限时秒杀
           </view>
         </view>
-      </view>
+      </navigator>
     </scroll-view>
   </view>
 
@@ -241,7 +241,7 @@
         <view class="scroll-item">
           <view class="text"><text>今天</text>家门店5折</view>
           <view class="food">
-            <view class="food-box">
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -251,8 +251,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -262,8 +262,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -273,8 +273,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -284,13 +284,13 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
+            </navigator>
           </view>
         </view>
         <view class="scroll-item">
           <view class="text"><text>周一</text>家门店5折</view>
           <view class="food">
-            <view class="food-box">
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -300,8 +300,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -311,8 +311,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -322,8 +322,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -333,13 +333,13 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
+            </navigator>
           </view>
         </view>
         <view class="scroll-item">
           <view class="text"><text>周二</text>家门店5折</view>
           <view class="food">
-            <view class="food-box">
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -349,8 +349,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -360,8 +360,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -371,8 +371,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -382,13 +382,13 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
+            </navigator>
           </view>
         </view>
         <view class="scroll-item">
           <view class="text"><text>周三</text>家门店5折</view>
           <view class="food">
-            <view class="food-box">
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -398,8 +398,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -409,8 +409,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -420,8 +420,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -431,13 +431,13 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
+            </navigator>
           </view>
         </view>
         <view class="scroll-item">
           <view class="text"><text>周四</text>家门店5折</view>
           <view class="food">
-            <view class="food-box">
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -447,8 +447,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -458,8 +458,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -469,8 +469,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -480,13 +480,13 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
+            </navigator>
           </view>
         </view>
         <view class="scroll-item">
           <view class="text"><text>周五</text>家门店5折</view>
           <view class="food">
-            <view class="food-box">
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -496,8 +496,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -507,8 +507,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -518,8 +518,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -529,13 +529,13 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
+            </navigator>
           </view>
         </view>
         <view class="scroll-item">
           <view class="text"><text>周六</text>家门店5折</view>
           <view class="food">
-            <view class="food-box">
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -545,8 +545,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -556,8 +556,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -567,8 +567,8 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
-            <view class="food-box">
+            </navigator>
+            <navigator class="food-box" url="../details/details">
               <view class="food-item">
                 <view class="img">
                   <image src="../../../static/img/home/images/food_03.png" mode="aspectFit"></image>
@@ -578,7 +578,7 @@
                 <view class="monye">评分 5.0 | ￥60/人 | 48.8km</view>
                 <view class="cheap">全网底价</view>
               </view>
-            </view>
+            </navigator>
           </view>
         </view>
       </scroll-view>

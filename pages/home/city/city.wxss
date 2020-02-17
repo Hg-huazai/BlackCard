@@ -8,10 +8,10 @@
 /*城市选择头部*/
 .list_tit {
     display: block;
-    line-height: 40px;
-    height: 40px;
+    line-height: 20px;
+    height: 20px;
     padding-left: 15px;
-    font-size: 16ppx;
+    font-size: 12px;
     background: #f5f5f5;
     color: #666;
 }
@@ -62,4 +62,36 @@
     position: absolute;
     top: 0;left: 0;bottom: 0;right: 0;
     z-index: 999;   
+}
+/* 城市名 */
+.list_con {
+  /* background-color: pink; */
+  margin: 0 20px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 2px solid #f4f4f4;
+}
+.city {
+  /* text-align: center; */
+  margin: 20px 0;
+}
+.city .input-item {
+  display: inline-block;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  width: 75%;
+  margin:0 12%;
+  vertical-align: middle;
+  padding: 5px 10px 5px 40px;
+  font-size: 14px;
+  position: relative;
+  box-sizing: border-box;
+  height: 32px;
+}
+.city .input-item image {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
 }

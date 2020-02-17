@@ -9,6 +9,10 @@
 }
 .content1 .swiper {
   text-align: center;
+  padding: 10px 10px;
+}
+.content1 .swiper .swiper-item image {
+  width: 100%;
 }
 .content1 .info {
   padding: 0 10px;

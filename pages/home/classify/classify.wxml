@@ -1,0 +1,25 @@
+<!--pages/home/classify/classify.wxml-->
+<view>
+  <view class="city">
+    <input class="input-item" placeholder="商家、分类、商圈">
+      <image src="../../../static/img/home/images/search_03.png" mode="aspectFit"></image>
+    </input>
+  </view>
+  <view class="classify">
+    <view class="left" >
+      <scroll-view class="scroll" scroll-y style="height:{{tbody-82}}px">
+        <view class="item {{index === popular? 'active' : ''}}" wx:for="{{Popular}}" wx:key="{{index}}" data-index="{{index}}" bindtap="activepopular" data-status="{{item.status}}">{{item.classify}}</view>
+      </scroll-view>
+    </view>
+    <view class="right">
+      <scroll-view scroll-y style="height:{{tbody-82}}px">
+        <view class="item"  wx:key="{{index}}" wx:for="{{list}}">
+          <view class="img">
+            <image src="{{item.img}}" mode="widthFix"></image>
+          </view>
+          <view class="text">{{item.name}}</view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

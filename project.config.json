@@ -106,6 +106,13 @@
 					"id": -1,
 					"name": "会员",
 					"pathName": "pages/member/member/member",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "分类",
+					"pathName": "pages/home/classify/classify",
 					"scene": null
 				}
 			]

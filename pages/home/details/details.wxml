@@ -3,14 +3,14 @@
 <!-- 门面轮播 -->
   <view class="content1">
     <swiper indicator-dots="true" autoplay="true" circular="true" class="swiper">
-      <swiper-item>
-        <image src="../../../static/img/home/details/images/lunbo.png"></image>
+      <swiper-item class="swiper-item">
+        <image src="../../../static/img/home/details/images/lunbo.png" mode="widthFix"></image>
       </swiper-item>
-      <swiper-item>
-        <image src="../../../static/img/home/details/images/lunbo.png"></image>
+      <swiper-item class="swiper-item">
+        <image src="../../../static/img/home/details/images/lunbo.png" mode="widthFix"></image>
       </swiper-item>
-      <swiper-item>
-        <image src="../../../static/img/home/details/images/lunbo.png"></image>
+      <swiper-item class="swiper-item">
+        <image src="../../../static/img/home/details/images/lunbo.png" mode="widthFix"></image>
       </swiper-item>
     </swiper>
     <view class="info">
@@ -225,7 +225,7 @@
         <view class="img">
           <image src="../../../static/img/home/details/images/xiaoheika_03.png" mode="widthFix"/>
         </view>
-        <input class="input" placeholder="说点什么吧..."/>
+        <input class="input" type="text" placeholder="说点什么吧..."/>
         <view class="img">
           <image src="../../../static/img/home/details/images/foods_21.png" mode="widthFix"/>
         </view>

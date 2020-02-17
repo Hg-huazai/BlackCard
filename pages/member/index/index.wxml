@@ -15,7 +15,7 @@
   </view>
 
   <view class="content2">
-    <view class="left">会员特权</view>
+    <navigator class="left" url="../member/member">会员特权</navigator>
     <view class="center">
       <view class="item">
         <view class="img">
@@ -152,19 +152,22 @@
       <view class="popularity-item">
         <view class="popularity-item1">
           <view class="img">
-            <image src="../../../static/img/member/images/Popularity_03.png" mode="aspectFit"></image>
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
           </view>
-          <view class="commen">环境真好环境真好环境真好</view>
-          <view class="user">
-            <view class="left">
-              <view class="img">
-                <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+          <view class="box">
+            <view class="commen">环境真好环境真好环</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
               </view>
-              <view class="name">小爱</view>
-            </view>
-            
-            <view class="like">
-              <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
             </view>
           </view>
         </view>
@@ -174,17 +177,20 @@
           <view class="img">
             <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
           </view>
-          <view class="commen">环境真好环境真好环境真好</view>
-          <view class="user">
-            <view class="left">
-              <view class="img">
-                <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+          <view class="box">
+            <view class="commen">环境真好环境真好环eeeeeeeeeee</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
               </view>
-              <view class="name">小爱</view>
-            </view>
-            
-            <view class="like">
-              <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
             </view>
           </view>
         </view>
@@ -192,19 +198,22 @@
       <view class="popularity-item">
         <view class="popularity-item1">
           <view class="img">
-            <image src="../../../static/img/member/images/Popularity_03.png" mode="widthFix"></image>
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
           </view>
-          <view class="commen">环境真好环境真好环境真好</view>
-          <view class="user">
-            <view class="left">
-              <view class="img">
-                <image src="../../../static/img/member/images/xiaoheika_03.png" mode="widthFix"></image>
+          <view class="box">
+            <view class="commen">环境真好环境真好环</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
               </view>
-              <view class="name">小爱</view>
-            </view>
-            
-            <view class="like">
-              <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
             </view>
           </view>
         </view>
@@ -212,23 +221,73 @@
       <view class="popularity-item">
         <view class="popularity-item1">
           <view class="img">
-            <image src="../../../static/img/member/images/Popularity_05.png" mode="aspectFit"></image>
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
           </view>
-          <view class="commen">环境真好环境真好环境真好</view>
-          <view class="user">
-            <view class="left">
-              <view class="img">
-                <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+          <view class="box">
+            <view class="commen">环境真好环境真好环eeeeeeeeeee</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
               </view>
-              <view class="name">小爱</view>
-            </view>
-            
-            <view class="like">
-              <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
             </view>
           </view>
         </view>
       </view>
+      <view class="popularity-item">
+        <view class="popularity-item1">
+          <view class="img">
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
+          </view>
+          <view class="box">
+            <view class="commen">环境真好环境真好环</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
+              </view>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="popularity-item">
+        <view class="popularity-item1">
+          <view class="img">
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
+          </view>
+          <view class="box">
+            <view class="commen">环境真好环境真好环eeeeeeeeeee</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
+              </view>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="clear"></view>
     </view>
   </view>
 </view>

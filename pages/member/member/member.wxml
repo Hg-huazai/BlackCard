@@ -126,9 +126,151 @@
 
    <!-- 小黑卡会员 -->
   <view class="content4">
-    <view class="top">
-      <view class="left">特权1</view>
-      <view class="right">小黑卡会员专享【5折买单】</view>
+  <!-- 特权一 -->
+    <view class="content4-item1">
+      <view class="top">
+        <view class="left">特权1</view>
+        <view class="right">小黑卡会员专享【5折买单】</view>
+      </view>
+      <view class="bottom">
+        <view class="bottom-item">
+          <view class="img">
+            <image  src="../../../static/img/member/member/images/foods_29.png" mode="widthFix"></image>
+          </view>
+          <view class="name">古茶</view>
+          <view class="stor">饮品店 市江东湾</view>
+          <view class="money">4.5分 <text>￥9/人</text></view>
+        </view>
+        <view class="bottom-item">
+          <view class="img">
+            <image  src="../../../static/img/member/member/images/foods_29.png" mode="widthFix"></image>
+          </view>
+          <view class="name">古茶</view>
+          <view class="stor">饮品店 市江东湾</view>
+          <view class="money">4.5分 <text>￥9/人</text></view>
+        </view>
+        <view class="bottom-item">
+          <view class="img">
+            <image  src="../../../static/img/member/member/images/foods_29.png" mode="widthFix"></image>
+          </view>
+          <view class="name">古茶</view>
+          <view class="stor">饮品店 市江东湾</view>
+          <view class="money">4.5分 <text>￥9/人</text></view>
+        </view>
+        <view class="bottom-item">
+          <view class="img">
+            <image  src="../../../static/img/member/member/images/foods_29.png" mode="widthFix"></image>
+          </view>
+          <view class="name">古茶</view>
+          <view class="stor">饮品店 市江东湾</view>
+          <view class="money">4.5分 <text>￥9/人</text></view>
+        </view>
+      </view>
+    </view>
+
+  <!-- 特权二 -->
+    <view class="content4-item2">
+      <view class="top">
+        <view class="left">特权2</view>
+        <view class="right">小黑卡会员专享【特惠套餐】</view>
+      </view>
+      <view class="bottom">
+        <swiper class="swiper" autoplay circular indicator-dots>
+          <swiper-item class="swiper-item">
+            <view class="img">
+              <image  src="../../../static/img/member/member/images/foods_32.png" mode="widthFix"></image>
+            </view>
+            <view class="info">
+              <view class="text">仅售9.9元！ 抢原价31元的千寻寿司精品寿司套餐一份！</view>
+              <view class="money"><text class="text1">￥</text><text class="text2">9.9</text><text class="text3">￥</text><text class="text4">31</text></view>
+            </view>
+          </swiper-item>
+          <swiper-item class="swiper-item">
+            <view class="img">
+              <image  src="../../../static/img/member/member/images/foods_32.png" mode="widthFix"></image>
+            </view>
+            <view class="info">
+              <view class="text">仅售9.9元！ 抢原价31元的千寻寿司精品寿司套餐一份！</view>
+              <view class="money"><text class="text1">￥</text><text class="text2">9.9</text><text class="text3">￥</text><text class="text4">31</text></view>
+            </view>
+          </swiper-item>
+          <swiper-item class="swiper-item">
+            <view class="img">
+              <image  src="../../../static/img/member/member/images/foods_32.png" mode="widthFix"></image>
+            </view>
+            <view class="info">
+              <view class="text">仅售9.9元！ 抢原价31元的千寻寿司精品寿司套餐一份！</view>
+              <view class="money">
+                <text class="text1">￥</text>
+                <text class="text2">9.9</text>
+                <text class="text3">￥</text>
+                <text class="text4">31</text>
+              </view>
+            </view>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+
+  <!-- 特权三 -->
+    <view class="content4-item3">
+      <view class="top">
+        <view class="left">特权3</view>
+        <view class="right">小黑卡会员专享【专属客服】</view>
+      </view>
+      <view class="bottom-b">
+        <view class="left">
+          <view class='text1'>专属客服</view>
+          <view class='text2'>竭诚为您提供更优质的服务</view>
+        </view>
+        <view class="img">
+          <image  src="../../../static/img/member/member/images/teqian_03.png" mode="widthFix"></image>
+        </view>
+        <view class="clear"></view>
+      </view>
+    </view>
+
+  <!-- 特权四 -->
+    <view class="content4-item3">
+      <view class="top">
+        <view class="left">特权4</view>
+        <view class="right">小黑卡会员专享【积分兑换】</view>
+      </view>
+      <view class="bottom-b">
+        <view class="left">
+          <view class='text1'>积分兑换</view>
+          <view class='text2'>网红好物，品质套餐不花钱，免费兑</view>
+        </view>
+        <view class="img1">
+          <image  src="../../../static/img/member/member/images/teqian_07.png" mode="widthFix"></image>
+        </view>
+        <view class="clear"></view>
+      </view>
+    </view>
+
+  <!-- 特权五 -->
+    <view class="content4-item3">
+      <view class="top">
+        <view class="left">特权5</view>
+        <view class="right">小黑卡会员专享【会员福利】</view>
+      </view>
+      <view class="bottom-b">
+        <view class="left">
+          <view class='text1'>会员福利</view>
+          <view class='text2'>专属霸王餐，现金红包，节日好礼</view>
+        </view>
+        <view class="img1">
+          <image  src="../../../static/img/member/member/images/teqian_10.png" mode="widthFix"></image>
+        </view>
+        <view class="clear"></view>
+      </view>
     </view>
   </view>
+  <view class="content5">
+    <view class="img">
+      <image  src="../../../static/img/member/member/images/end_13.png" mode="widthFix"></image>
+    </view>
+    <view class="text">天天小黑卡，全城打5折</view>
+  </view>
+  
 </view>

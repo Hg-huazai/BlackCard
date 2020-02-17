@@ -95,14 +95,20 @@ page {
   display: inline-block;
   font-size: 22px;
 }
-.content1 .information .cheap .member {
+.content1 .information .cheap button {
   display: inline-block;
   float: right;
   color: #000;
-  padding: 0 5px;
-  border-radius: 10px;
+  padding: 0 10px;
+  border-radius: 15px;
   background-color: #f2dcb3;
+  font-size: 14px;
 }
+/* 按钮 */
+/* .content1 .information .cheap button {
+  display: inline-block;
+  font-size: 12px;
+} */
 .content1 .discount {
   background-color: #000;
   color: #89878c;

@@ -1,4 +1,9 @@
 <!--pages/home/city/city.wxml-->
+<view class="city">
+  <input class="input-item" type="text" placeholder="商家、分类、商圈">
+    <image src="../../../static/img/home/images/search_03.png" mode="aspectFit"></image>
+  </input>
+</view>
 <scroll-view scroll-y="true" style="height: {{winHeight}}px;" scroll-into-view="{{scrollTopId}}" class="city_list">
   <block wx:for="{{city}}" wx:for-index="idx" wx:for-item="cityName" wx:key="{{idx}}">
     <text id="{{idx}}" class="list_tit">{{idx}}</text>
