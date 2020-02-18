@@ -9,6 +9,10 @@
 }
 .content1 .swiper {
   text-align: center;
+  padding: 10px 10px;
+}
+.content1 .swiper .swiper-item image {
+  width: 100%;
 }
 .content1 .info {
   padding: 0 10px;
@@ -548,4 +552,40 @@
   border: 1px solid #fc938d;
   margin-right: 5px;
   padding: 0 5px;
+}
+
+.content9 {
+  position:fixed;
+  bottom:0;
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.content9 .item .img image {
+  width: 30px;
+  height: 30px;
+}
+.content9 .item {
+  display: inline-block;
+  margin-right: 30px;
+  text-align: center;
+}
+.content9 .item text {
+  font-size: 10px;
+  color: #cecece;
+}
+.content9 .item2 {
+  display: inline-block;
+  background-color: #fd3c2a;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 20px;
+  float: right;
+  font-weight: bold;
+}
+.content9 .item2 text {
+  font-size: 22px;
+  font-weight: bold;
 }

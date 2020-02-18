@@ -172,3 +172,115 @@
   width: 35px;
   height: 35px;
 }
+
+/* 套餐描述 */
+.content3 {
+  padding: 30px 10px;
+  background-color: #fff;
+}
+.content3 .top {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content3 .discount1,
+.discount2,
+.discount3,
+.discount4 {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.content3 .discount1,
+.discount2,
+.discount3,
+.discount4 .text1{
+  text-align: center;
+}
+.content3 .discount1,
+.discount2,
+.discount3,
+.discount4 .img{
+  width: 100%;
+  overflow: hidden;
+}
+.content3 .discount1,
+.discount2,
+.discount3,
+.discount4 .img image{
+  width: 100%;
+}
+.content3 .discount1 .text3, .text4, .text5 {
+  color: #f82880;
+  /* background-color: pink; */
+}
+.content3 .discount2 .text3{
+  color: #f39b1d;
+  /* background-color: pink; */
+}
+.content3 .discount3 .text3{
+  color: #fedc00;
+  /* background-color: pink; */
+}
+.content3 .discount4 .text2 text{
+  color: #b83e2f;
+  /* background-color: pink; */
+}
+/* 底部固定 */
+.content5 {
+  position: fixed;
+  /* position: absolute; */
+  bottom: 0;
+  background-color: #fff;
+  /* height: 50px; */
+  width: 100%;
+  padding: 10px 0 10px 0;
+  
+
+}
+.content5 .text1{
+  float: left;
+  width: 20%;
+  /* margin-top: 10px; */
+  font-size: 12px;
+}
+.content5 .text1 .text1-item{
+  text-align: center;
+  /* background-color: pink; */
+}
+
+.content5 .text1 .img{
+  /* margin-top: 10px; */
+}
+
+.content5 .text2{
+  text-align: center;
+  float: left;
+  width: 30%;
+  font-size: 12px;
+  
+  color: #fff;
+}
+.content5 .text2 .text2-item {
+  background-color: #30223c;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.content5 .text3{
+  text-align: center;
+  float: left;
+  width: 50%;
+  font-size: 12px;
+  color: #fff;
+}
+.content5 .text3 .text3-item{
+  background-color: #fa4033;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.content5 image{
+  width: 20px;
+}

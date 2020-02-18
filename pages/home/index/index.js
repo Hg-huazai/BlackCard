@@ -1,4 +1,5 @@
 // pages/home/index/index.js
+const App = getApp();//设立顶部栏高度
 Page({
 
   /**
@@ -19,12 +20,17 @@ Page({
     city: "阳江"
 
   },
-
+  getPerson: function(e){
+    console.log(e);
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    //自定义头部方法
+    this.setData({
+      navH: App.globalData.navHeight
+    });
   },
 
   /**

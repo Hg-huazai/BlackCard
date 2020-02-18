@@ -6,9 +6,11 @@
     "pages/home/Seckill/seckill",
     "pages/home/xiala/xiala",
     "pages/home/city/city",
+    "pages/home/classify/classify",
     "pages/discount/index/index",
     "pages/group/index/index",
     "pages/member/index/index",
+    "pages/member/member/member",
     "pages/index/index",
     "pages/logs/logs"
 
@@ -17,7 +19,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "小黑卡",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
   "tabBar": {
     "list": [
