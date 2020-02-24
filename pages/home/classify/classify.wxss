@@ -1,0 +1,73 @@
+/* pages/home/classify/classify.wxss */
+.city {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+.city .input-item {
+  display: inline-block;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  width: 60%;
+  margin-left: 10px;
+  vertical-align: middle;
+  padding: 5px 10px 5px 40px;
+  font-size: 14px;
+  position: relative;
+  /* box-sizing: border-box; */
+  
+}
+.city .input-item image {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.classify {
+  border-top: 20px solid #f4f4f4;
+  padding-top:0 20px 20px 20px;
+}
+.classify .left {
+  width: 30%;
+  background-color: #f4f4f4;
+  float: left;
+}
+.classify .scroll {
+  /* height: 700px; */
+
+}
+.classify .scroll .item {
+  padding: 10px 0 10px 20px;
+  font-size: 14px;
+}
+.classify .scroll .item.active {
+  border-left: 2px solid #fa4033;
+  color: #fa4033;
+  background-color: #fff;
+}
+
+.classify .right {
+  width: 70%;
+  float: left;
+}
+.classify .right {
+  width: 70%;
+  float: left;
+}
+.classify .right .item  {
+  width: 33%;
+  text-align: center;
+  float: left;
+}
+.classify .right .item .img  {
+  width: 100%;
+  /* background-color: pink; */
+}
+.classify .right .item .img image  {
+  width: 100%;
+}
+.classify .right .item .text  {
+  font-size: 12px;
+}

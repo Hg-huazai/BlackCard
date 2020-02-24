@@ -1,0 +1,131 @@
+<!--pages/home/Seckill/seckill.wxml-->
+<view class="content">
+  <view class="content1">
+    <swiper class="swiper" indicator-dots="true" autoplay="true" circular="true">
+      <swiper-item>
+        <image src="../../../static/img/home/seckill/images/food_02.png" mode="scaleToFill"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../../static/img/home/seckill/images/food_02.png" mode="scaleToFill"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../../static/img/home/seckill/images/food_02.png" mode="scaleToFill"></image>
+      </swiper-item>
+    </swiper>
+    <view class="monye">
+      <view class="left">
+        <text class="text1">￥</text>
+        <text class="text2">1</text>
+        <text class="text3">.80</text>
+      </view>
+      <view class="center">
+        <view class="huiyuan">会员价</view>
+        <view class="delete">￥20.00</view>
+      </view>
+      <view class="right">
+        <view class="text1">限量秒杀</view>
+        <view class="text2">还剩80份</view>
+      </view>
+      <view class="clear"></view>
+    </view>
+    <view class="drinks">饮品五选一</view>
+    <view class="box">
+      <view class="tip">
+        <view class="img">
+          <image src="../../../static/img/home/seckill/images/true_05.png" mode="widthFix"></image>
+        </view>
+        <view class="anytime">随时可退</view>
+      </view>
+      <view class="tip">
+        <view class="img">
+          <image src="../../../static/img/home/seckill/images/true_05.png" mode="widthFix"></image>
+        </view>
+        <view class="anytime">过期自动退款</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 支持到店使用 -->
+  <view class="content2">
+    <view class="item1">支持到店使用</view>
+    <view class="item2">适用于以下门店</view>
+    <view class="item3">
+      <view class="img">
+        <image src="../../../static/img/home/seckill/images/food_05.png" mode="widthFix"></image>
+      </view>
+      <view class='center'>
+        <view class="name">西美喜星座茶饮(祖庙店)</view>
+        <view class="stor">祖庙</view>
+        <view class="number"> ￥0/人</view>
+      </view>
+      <view class="right">
+        <view class="img1">
+          <image src="../../../static/img/home/seckill/images/contact_12.png" mode="widthFix"></image>
+        </view>
+        <view class="contact">联系商家</view>
+      </view>
+      <view class="clear"></view>
+    </view>
+  </view>
+  <view class="content3">
+    <view class="top">套餐描述</view>
+    <view class="discount">饮品五选一</view>
+    <view class="discount1">
+      <view class="text1">优雅处女</view>
+      <view class="text2">新西兰奶油草莓</view>
+      <view class="text3">粉红色的外表下有着一颗高贵的灵魂</view>
+      <view class="text4">美妙的口感瞬间幸福感爆棚</view>
+      <view class="text5">更添几分幸运</view>
+      <view class="img"> 
+        <image src="../../../static/img/home/seckill/images/foods_03.png" mode="widthFix"></image>
+      </view>
+    </view>
+
+    <!-- 饮品二 -->
+    <view class="discount2">
+      <view class="text1">桂圆红枣生姜茶</view>
+      <view class="text2">冬季滋补圣品</view>
+      <view class="text3">桂圆中含有葡萄糖，维生素，蔗糖等物质，营养丰富，有补心安神，养血益脾职效</view>
+      <view class="img">
+        <image src="../../../static/img/home/seckill/images/food_09.png" mode="widthFix"></image>
+      </view>
+    </view>
+
+    <!-- 饮品三 -->
+    <view class="discount3">
+      <view class="text1">香蕉奶露</view>
+      <view class="text2">香蕉与奶露的结合</view>
+      <view class="text3">又滑又香</view>
+      <view class="img">
+        <image src="../../../static/img/home/seckill/images/food_12.png" mode="widthFix"></image>
+      </view>
+    </view>
+
+    <!-- 饮品四 -->
+    <view class="discount4">
+      <view class="text1">金吉百香</view>
+      <view class="text2">金吉中含有丰富的维生素A和维生素C，而百香果中也含有大量的维生素C，可以清除自由基，预防黑色素沉着，<text>常喝百香果金吉茶，能美白淡斑，增加皮肤光泽和弹性，有延缓衰老的作用。</text></view>
+      <view class="img">
+        <image src="../../../static/img/home/seckill/images/food_09.png" mode="widthFix"></image>
+      </view>
+    </view>
+  </view> 
+
+  <!-- 底部固定 -->
+  <view class="content5">
+    <view class="text1">
+      <view class="text1-item">
+        <view class="img">
+        <image src="../../../static/img/home/seckill/images/food_15.png" mode="widthFix"></image>
+      </view>
+      <view class="collection">收藏</view>
+      </view>
+    </view>
+    <view class="text2">
+      <view class="text2-item">分享</view>
+    </view>
+    <view class="text3">
+      <view class="text3-item"><text>08:38:45.1</text>限时秒杀</view>
+    </view>
+  </view>
+</view>

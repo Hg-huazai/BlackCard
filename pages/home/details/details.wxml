@@ -1,0 +1,334 @@
+<!--pages/home/details/details.wxml-->
+<view>
+<!-- 门面轮播 -->
+  <view class="content1">
+    <swiper indicator-dots="true" autoplay="true" circular="true" class="swiper">
+      <swiper-item class="swiper-item">
+        <image src="../../../static/img/home/details/images/lunbo.png" mode="widthFix"></image>
+      </swiper-item>
+      <swiper-item class="swiper-item">
+        <image src="../../../static/img/home/details/images/lunbo.png" mode="widthFix"></image>
+      </swiper-item>
+      <swiper-item class="swiper-item">
+        <image src="../../../static/img/home/details/images/lunbo.png" mode="widthFix"></image>
+      </swiper-item>
+    </swiper>
+    <view class="info">
+      <view class="name">仙潮牛肉餐饮</view>
+      <view class="monye">
+        <text class="text1">5.0分</text>
+        <text class="text2">￥50/人</text>
+        <text class="text3">港式火锅</text>
+      </view>
+      <view class="characteristic">每天一头牛，新鲜不隔夜，</view>
+    </view>
+    <view class="bottom">
+      <view class="b-left">
+        <view class="date">
+          <view class="img">
+            <image src="../../../static/img/home/details/images/info_03.png" mode="aspectFit"></image>
+          </view>
+          <view class="date-item">营业中 <text>10：00-21：30</text></view>
+        </view>
+        <view class="date">
+          <view class="img">
+            <image src="../../../static/img/home/details/images/info_05.png" mode="aspectFit"></image>
+          </view>
+          <view class="date-item">阳江市阳东区</view>
+        </view>
+        <view class="distance">距离您25km</view>
+      </view>
+      <view class="b-right img">
+        <image src="../../../static/img/home/details/images/info_07.png" mode="aspectFit"></image>
+      </view>
+      <view class="clear"></view>
+    </view>
+  </view>
+
+  <!-- 买单折扣 -->
+  <view class="content2">
+    <view class="content2-item1">买单折扣</view>
+    <view class="content2-item2">
+      <view class="top">
+        <view class="left">黑卡5折 <text>当前可享</text></view>
+        <view class="right">5折</view>
+        <view class="clear"></view>
+      </view>
+      <view class="bottom">
+        <view class="left">
+          <view class="time"> <text>时间</text>每天</view>
+          <view class="tip"> <text>说明</text>仅限新鲜牛肉类</view>
+        </view>
+        <view class="right">详情</view>
+        <view class="clear"></view>
+      </view>
+    </view>
+    <view class="content2-item2 item3">
+      <view class="top">
+        <view class="left">平日折扣</view>
+        <view class="right">8.8折</view>
+        <view class="clear"></view>
+      </view>
+      <view class="bottom">
+        <view class="left">
+          <view class="time"> <text>时间</text>每天</view>
+          <view class="tip"> <text>说明</text>仅限新鲜牛肉类</view>
+        </view>
+        <view class="right">详情</view>
+        <view class="clear"></view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 免费抢兑 -->
+  <view class="content3">
+    <view class="content3-top">免费抢兑</view>
+    <view class="content3-item">
+      <view class="img">
+        <image src="../../../static/img/home/details/images/food_03.png" mode="widthFix"></image>
+      </view>
+      <view class="bottom">
+        <view class="member">【会员免费抢】价值28元的潮汕牛筋丸</view>
+        <view class="integral">
+          <view class="number">8.00</view>
+          <view class="jifen">积分</view>
+          <view class="monye"><text>￥</text>28.00</view>
+          <view class="time"><text>04:31:33.1</text>限时秒杀</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 超值套餐 -->
+  <view class="content4">
+    <view class="content4-top">超值套餐</view>
+    <view class="content4-item">
+      <view class="img">
+        <image src="../../../static/img/home/details/images/foods_03.png" mode="widthFix"></image>
+      </view>
+      <view class="left">
+        <view class="monye">最高价值331元的wwwwwwwwwwwwww</view>
+        <view class="soup">牛骨清汤底，茶树枯汤wwwww</view>
+        <view class="time">每周一到周日可用</view>
+      </view>
+      <view class="right">
+        <view class="number1"><text>￥</text>331</view>
+        <view class="number2"><text>￥</text>168</view>
+        <view class="purchase">抢购</view>
+      </view>
+      <view class="clear"></view>
+    </view>
+    <view class="content4-item">
+      <view class="img">
+        <image src="../../../static/img/home/details/images/foods_03.png" mode="widthFix"></image>
+      </view>
+      <view class="left">
+        <view class="monye">最高价值331元的wwwwwwwwwwwwww</view>
+        <view class="soup">牛骨清汤底，茶树枯汤wwwww</view>
+        <view class="time">每周一到周日可用</view>
+      </view>
+      <view class="right">
+        <view class="number1"><text>￥</text>331</view>
+        <view class="number2"><text>￥</text>168</view>
+        <view class="purchase">抢购</view>
+      </view>
+      <view class="clear"></view>
+    </view>
+    <view class="content4-bottom">
+      <view class="all">所有超值套餐</view>
+    </view>
+  </view>
+
+  <!-- 人气推荐 -->
+  <view class="content5">
+    <view class="content5-top">人气推荐</view>
+    <scroll-view class="content5-item" scroll-x="true">
+      <view class="scroll-item">
+        <view class="img">
+          <image src="../../../static/img/home/details/images/foods_15.png" mode="widthFix"/>
+        </view>
+        <view class="text">全牛宴</view>
+      </view>
+      <view class="scroll-item">
+        <view class="img">
+          <image src="../../../static/img/home/details/images/foods_15.png" mode="widthFix"/>
+        </view>
+        <view class="text">全牛宴</view>
+      </view>
+      <view class="scroll-item">
+        <view class="img">
+          <image src="../../../static/img/home/details/images/foods_15.png" mode="widthFix"/>
+        </view>
+        <view class="text">全牛宴</view>
+      </view>
+      <view class="scroll-item">
+        <view class="img">
+          <image src="../../../static/img/home/details/images/foods_15.png" mode="widthFix"/>
+        </view>
+        <view class="text">全牛宴</view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-- 商家菜单 -->
+  <view class="content5 bgc">
+    <view class="content5-top">商家菜单</view>
+    <scroll-view class="content5-item" scroll-x="true">
+      <view class="scroll-item">
+        <view class="img">
+          <image src="../../../static/img/home/details/images/foods_10.png" mode="widthFix"/>
+        </view>
+      </view>
+      <view class="scroll-item">
+        <view class="img">
+          <image src="../../../static/img/home/details/images/foods_10.png" mode="widthFix"/>
+        </view>
+      </view>
+      <view class="scroll-item">
+        <view class="img">
+          <image src="../../../static/img/home/details/images/foods_10.png" mode="widthFix"/>
+        </view>
+      </view>
+      <view class="scroll-item">
+        <view class="img">
+          <image src="../../../static/img/home/details/images/foods_10.png" mode="widthFix"/>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-- 精选评价 -->
+  <view class="content6">
+    <view class="content6-top">精选评价</view>
+    <view class="right">查看全部 <text decode>&gt;</text></view>
+    <view class="content6-item1">
+      <view class="text">食材新鲜(<text>5</text>)</view>
+      <view class="text">经常来(<text>4</text>)</view>
+      <view class="text">环境高大尚(<text>9</text>)</view>
+      <view class="text">环境挺好(<text>8</text>)</view>
+      <view class="text">回头客(<text>35</text>)</view>
+    </view>
+    <view class="content6-item2">
+      <view class="top">
+        <view class="img1">
+          <image src="../../../static/img/home/details/images/foods_12.png" mode="widthFix"/>
+        </view>
+        <view class="username">华哥</view>
+        <view class="right">right</view>
+      </view>
+      <view class="img">
+        <image src="../../../static/img/home/details/images/foods_15.png" mode="widthFix"/>
+      </view>
+      <view class="time">评价于2019.11.17</view>
+      <view>超级好吃，又划算</view>
+      <view class="bottom">
+        <view class="img">
+          <image src="../../../static/img/home/details/images/xiaoheika_03.png" mode="widthFix"/>
+        </view>
+        <input class="input" type="text" placeholder="说点什么吧..."/>
+        <view class="img">
+          <image src="../../../static/img/home/details/images/foods_21.png" mode="widthFix"/>
+        </view>
+        <view class="img">
+          <image src="../../../static/img/home/details/images/foods_19.png" mode="widthFix"/>
+        </view>
+        <view class="clear"></view>
+      </view>
+    </view>
+    <view class="content6-bottom">
+      <view class="all">
+        查看全部 <text decode> &gt;</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="content7">
+    <view class="img">
+      <image src="../../../static/img/home/details/images/foods_26.png" mode="widthFix">
+        
+      </image>
+    </view>
+    <view class="user">亲爱的小黑卡用户</view>
+    <view class="text">在消费中遇到任何的问题或者不满意，都可以找我，我会努力帮你解决</view>
+    <view class="box">
+      <view class="service">联系我的客服<text decode> &gt;</text></view>
+    </view>
+  </view>
+
+
+  <!-- 小伙伴都喜欢 -->
+  <view class="content8">
+    <view class="content8-top">小伙伴都喜欢</view>
+    <navigator class="content8-item2" url="../details/details">
+      <view class="img">
+        <image src="../../../static/img/home/images/lunbo_07.png" mode="aspectFit"></image>
+      </view>
+      <view class="info">
+        <view class="name">毛家菜馆</view>
+        <view class="position">湘菜 | 陌江路</view>
+        <view class="monye">评分5.0 | ￥50/人</view>
+        <view class="chine">经典传承! 无法抵挡地道的美味</view>
+        <view class="acrd"><text>黑卡5折</text>买单5.9折</view>
+        <view class="acrd2"><text>平日折扣</text>买单7.5折</view>
+        <view class="cheap">
+          <view class="text">返现</view>
+          <view class="text">全网底价</view>
+        </view>
+      </view>
+      <view class="clear"></view>
+    </navigator>
+    <navigator class="content8-item2" url="../details/details">
+      <view class="img">
+        <image src="../../../static/img/home/images/lunbo_07.png" mode="aspectFit"></image>
+      </view>
+      <view class="info">
+        <view class="name">毛家菜馆</view>
+        <view class="position">湘菜 | 陌江路</view>
+        <view class="monye">评分5.0 | ￥50/人</view>
+        <view class="chine">经典传承! 无法抵挡地道的美味</view>
+        <view class="acrd"><text>黑卡5折</text>买单5.9折</view>
+        <view class="acrd2"><text>平日折扣</text>买单7.5折</view>
+        <view class="cheap">
+          <view class="text">返现</view>
+          <view class="text">全网底价</view>
+        </view>
+      </view>
+      <view class="clear"></view>
+    </navigator>
+    <navigator class="content8-item2" url="../details/details">
+      <view class="img">
+        <image src="../../../static/img/home/images/lunbo_07.png" mode="aspectFit"></image>
+      </view>
+      <view class="info">
+        <view class="name">毛家菜馆</view>
+        <view class="position">湘菜 | 陌江路</view>
+        <view class="monye">评分5.0 | ￥50/人</view>
+        <view class="chine">经典传承! 无法抵挡地道的美味</view>
+        <view class="acrd"><text>黑卡5折</text>买单5.9折</view>
+        <view class="acrd2"><text>平日折扣</text>买单7.5折</view>
+        <view class="cheap">
+          <view class="text">返现</view>
+          <view class="text">全网底价</view>
+        </view>
+      </view>
+      <view class="clear"></view>
+    </navigator>
+  </view>
+
+  <!-- 底部固定 -->
+  <view class="content9">
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/home/details/images/remmon_03.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">分享</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/home/details/images/remmon_05.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">收藏</view>
+    </view>
+    <view class="item2">立即买单 <text>6.8</text> 折</view>
+  </view>
+</view>

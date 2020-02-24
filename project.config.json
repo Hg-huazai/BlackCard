@@ -1,0 +1,121 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.1",
+	"appid": "wx462c5ccc2b2de0c1",
+	"projectname": "%E9%BB%91%E9%B2%B8%E5%8D%A1",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "详情",
+					"pathName": "pages/home/details/details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "红包群",
+					"pathName": "pages/group/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/member/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "详情",
+					"pathName": "pages/home/details/details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "下拉框",
+					"pathName": "pages/home/xiala/xiala",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "城市",
+					"pathName": "pages/home/city/city",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "秒杀",
+					"pathName": "pages/home/Seckill/seckill",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "vip",
+					"pathName": "pages/member/vip/vip",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "会员",
+					"pathName": "pages/member/member/member",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "分类",
+					"pathName": "pages/home/classify/classify",
+					"scene": null
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,293 @@
+<!--pages/member/index/index.wxml-->
+<view class="content">
+  <view class="content1">
+    <view class="information">
+      <view class="img">
+        <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+      </view>
+      <view class="username">
+        <view class="user">小黑卡用户</view>
+        <view class="member">您还不是小黑卡会员哦</view>
+      </view>
+    </view>
+    <view class="right">开通会员</view>
+    <view class="clear"></view>
+  </view>
+
+  <view class="content2">
+    <navigator class="left" url="../member/member">会员特权</navigator>
+    <view class="center">
+      <view class="item">
+        <view class="img">
+          <image src="../../../static/img/member/images/huiyuan_03.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">5折买单</view>
+      </view>
+      <view class="item">
+        <view class="img">
+          <image src="../../../static/img/member/images/huiyuan_05.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">特价套餐</view>
+      </view>
+      <view class="item">
+        <view class="img">
+          <image src="../../../static/img/member/images/huiyuan_07.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">积分兑换</view>
+      </view>
+      <view class="item">
+        <view class="img">
+          <image src="../../../static/img/member/images/huiyuan_09.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">会员福利</view>
+      </view>
+    </view>
+    <view class="right">
+      <view class="sanjiao">
+        <!-- <image src="../../../static/img/member/images/huiyuan_12.png" mode="aspectFit"></image> -->
+      </view>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <view class="content3">
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/content3_03.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/content3_05.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/content3_07.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/content3_09.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+  </view>
+  <view class="content4">
+    <view class="function">更多功能</view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/function_03.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/function_05.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/function_07.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/function_09.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/function_11.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/function_18.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/function_19.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/function_20.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/function_22.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/member/images/function_22.png" mode="aspectFit"></image>
+      </view>
+      <view class="text">我的买单</view>
+    </view>
+  </view>
+  <view class="content5">
+    <view class="evaluate">我的评价</view>
+    <view class="img">
+      <image src="../../../static/img/member/images/evaluate_03.png" mode="aspectFit"></image>
+    </view>
+  </view>
+
+  <!-- 人气评价 -->
+  <view class="content6">
+    <view class="evaluate">人气评价</view>
+    <view class="popularity">
+      <view class="popularity-item">
+        <view class="popularity-item1">
+          <view class="img">
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
+          </view>
+          <view class="box">
+            <view class="commen">环境真好环境真好环</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
+              </view>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="popularity-item">
+        <view class="popularity-item1">
+          <view class="img">
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
+          </view>
+          <view class="box">
+            <view class="commen">环境真好环境真好环eeeeeeeeeee</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
+              </view>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="popularity-item">
+        <view class="popularity-item1">
+          <view class="img">
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
+          </view>
+          <view class="box">
+            <view class="commen">环境真好环境真好环</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
+              </view>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="popularity-item">
+        <view class="popularity-item1">
+          <view class="img">
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
+          </view>
+          <view class="box">
+            <view class="commen">环境真好环境真好环eeeeeeeeeee</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
+              </view>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="popularity-item">
+        <view class="popularity-item1">
+          <view class="img">
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
+          </view>
+          <view class="box">
+            <view class="commen">环境真好环境真好环</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
+              </view>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="popularity-item">
+        <view class="popularity-item1">
+          <view class="img">
+            <image src="../../../static/img/member/images/Popularity_05.png" mode="widthFix"></image>
+          </view>
+          <view class="box">
+            <view class="commen">环境真好环境真好环eeeeeeeeeee</view>
+            <view class="user">
+              <view class="left">
+                <view class="img">
+                  <image src="../../../static/img/member/images/xiaoheika_03.png" mode="aspectFit"></image>
+                </view>
+                <view class="name">小爱</view>
+                <view class="clear"></view>
+              </view>
+              
+              <view class="like">
+                <image src="../../../static/img/member/images/like_09.png" mode="aspectFit"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="clear"></view>
+    </view>
+  </view>
+</view>

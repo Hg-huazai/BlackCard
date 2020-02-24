@@ -1,0 +1,654 @@
+/* pages/home/index/index.wxss */
+page {
+  background-color: #f4f4f4;
+}
+.clear {
+  clear: both;
+}  
+
+.city {
+  /* background-color: #fff; */
+  /* padding: 20px; */
+  /* margin-bottom: 10px; */
+  /* height: 30px; */
+  position: absolute;
+  top: 0;
+}
+.city .city-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  font-size: 14px;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+  /* background-color: pink; */
+  /* padding: 5px 0; */
+  padding-right: 10px;
+  position: relative;
+}
+.city .city-item .tubiao {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.city .city-item .tubiao image {
+  width: 8px;
+  height: 8px;
+}
+.city .input-item {
+  display: inline-block;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 10px;
+  vertical-align: middle;
+  padding: 5px 10px 5px 40px;
+  font-size: 12px;
+  position: relative;
+  /* box-sizing: border-box; */
+}
+.city .input-item image {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+/* 小黑卡用户   非会员 */
+.content1 {
+   padding: 0 10px;
+   background: -webkit-linear-gradient(top,#fff,#f4f4f4);
+   display: none;
+}
+.content1 .information {
+ background-color: #3d2f49;
+   color: #cfbc9c;
+   padding: 20px 15px 20px 15px;
+   border-radius: 12px 12px 0 0 ;
+}
+.content1 .information .img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content1 .information .img image {
+  width: 50px;
+  height: 50px;
+}
+.content1 .information .username {
+  display: inline-block;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+.content1 .information .username .user {
+  font-size: 10px;
+}
+.content1 .information .username .member {
+  display: inline-block;
+  font-size: 12px;
+}
+.content1 .information .cheap {
+  font-size: 14px;
+  font-weight: bold;
+}
+.content1 .information .cheap .money {
+  display: inline-block;
+}
+.content1 .information .cheap .money text {
+  display: inline-block;
+  font-size: 22px;
+}
+.content1 .information .cheap button {
+  display: inline-block;
+  float: right;
+  color: #000;
+  padding: 0 10px;
+  border-radius: 15px;
+  background-color: #f2dcb3;
+  font-size: 14px;
+}
+/* 按钮 */
+/* .content1 .information .cheap button {
+  display: inline-block;
+  font-size: 12px;
+} */
+.content1 .discount {
+  background-color: #000;
+  color: #89878c;
+  font-size: 10px;
+  padding: 15px 8px 10px;
+  border-radius: 0 0 12px 12px;
+}
+.content1 .discount .discount-left {
+  float: left;
+}
+.content1 .discount .discount-right {
+  float: right;
+}
+
+/* 小黑卡用户   会员 */
+.vip {
+   padding: 0 10px;
+   background: -webkit-linear-gradient(top,#fff,#f4f4f4);
+}
+.vip .information {
+ background-color: #3d2f49;
+   color: #cfbc9c;
+   padding: 20px 15px 20px 15px;
+   border-radius: 12px 12px 0 0 ;
+}
+.vip .information .img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.vip .information .img image {
+  width: 50px;
+  height: 50px;
+}
+.vip .information .username {
+  display: inline-block;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+.vip .information .username .user {
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+
+}
+.vip .information .username .user .tubiao {
+  position: absolute;
+  top: 1px;
+  left: 40px;
+}
+.vip .information .username .user .tubiao image {
+  width: 10px;
+  height: 10px;
+}
+
+
+.vip .information .username .user .heika {
+  font-size: 10px;
+  display: inline-block;
+  background-color: #d8c195;
+  color: #000;
+  margin-left: 10px;
+  padding: 0 3px;
+  border-radius: 6px;
+  padding-left: 18px;
+  padding-right: 5px;
+}
+.vip .information .username .member {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+.vip .information .cheap {
+  font-size: 14px;
+  font-weight: bold;
+}
+.vip .information .cheap .money {
+  display: inline-block;
+  width: 70%;
+}
+.vip .information .cheap .money .integral {
+  display: inline-block;
+  font-size: 22px;
+  margin-bottom: 5px;
+  position: relative;
+  padding-right: 20px;
+}
+.vip .information .cheap .money .integral .tubiao {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  /* background-color: pink; */
+  
+}
+.vip .information .cheap .money .integral .tubiao image {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.vip .information .cheap .money .progress .jifen {
+  border: 2px solid #fde1b1;
+  border-radius: 5px;
+}
+.vip .information .cheap .member {
+  display: inline-block;
+  float: right;
+  color: #000;
+  padding: 0 5px;
+  border-radius: 10px;
+  background-color: #f2dcb3;
+  position: relative;
+  padding-right: 15px;
+}
+.vip .information .cheap .member .tubiao {
+  position: absolute;
+  top: 0;
+  right: 3px;
+}
+.vip .information .cheap .member .tubiao image {
+  width: 10px;
+  height: 10px;
+}
+.vip .discount {
+  background-color: #000;
+  color: #89878c;
+  font-size: 10px;
+  padding: 15px 8px 10px;
+  border-radius: 0 0 12px 12px;
+}
+.vip .discount .discount-left {
+  float: left;
+}
+.vip .discount .discount-right {
+  float: right;
+}
+
+
+/* 食品分类 */
+.content2 {
+  background-color: #fff;
+  padding: 20px 0 20px 0;
+  border-radius: 10px 10px 0 0;
+}
+.content2 .content2-item {
+  display: inline-block;
+  width: 20%;
+}
+.content2 .content2-item .img {
+  text-align: center
+}
+.content2 .content2-item .img image {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.content2 .content2-item .name {
+  font-size: 12px;
+  text-align: center
+}
+
+/* 食品轮播推荐 */
+.content3 {
+  background-color: #f4f4f4;
+}
+.content3 .content3-item1 {
+  padding: 10px 10px;
+  background-color: #f4f4f4;
+}
+.content3 .content3-item1 .item-left {
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content3 .content3-item1 .item-left text {
+  font-size: 12px;
+  display: inline-block;
+  background-color: #dfc080;
+  color: #fff;
+  padding: 3px 15px;
+  border-radius: 10px 10px 10px 0;
+}
+.content3 .content3-item1 .item-right {
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 6px;
+}
+
+/* 日期滚动 */
+.content3 .content3-item2 {
+  padding: 10px 10px;
+  background-color: #f4f4f4;
+}
+.content3 .content3-item2 .date {
+  white-space: nowrap;
+
+}
+
+.content3 .content3-item2 .date .date-item {
+  display: inline-block;
+  width: 20%;
+}
+.content3 .content3-item2 .date .date-item.active {
+  color: #fff;
+  background-color: pink;
+  padding: 5px 0;
+  border-radius: 10px;
+}
+.content3 .content3-item2 .date .date-item .date-item1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.content3 .content3-item2 .date .date-item .date-item2 {
+  font-size: 10px;
+  text-align: center;
+}
+
+
+.content3 .content3-item3 {
+
+}
+.content3 .content3-item3 .scroll  {
+  white-space: nowrap;
+}
+.content3 .content3-item3 .scroll .scroll-item  {
+  display: inline-block;
+  width: 320px;
+  background-color: #fff;
+  /* margin: 0 5px; */
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+.content3 .content3-item3 .scroll .scroll-item:nth-child(1)  {
+  
+}
+.content3 .content3-item3 .scroll .scroll-item .text {
+  font-size: 8px;
+  padding: 10px;
+}
+.content3 .content3-item3 .scroll .scroll-item .text text {
+  font-size: weight;
+  font-size: 12px;
+}
+.content3 .content3-item3 .food {
+  background-color: pink;
+  width: 100%;
+}
+.content3 .content3-item3 .food .food-box {
+  /* width: 50%; */
+  float: left;
+  
+}
+.content3 .content3-item3 .food .food-item {
+  font-size: 12px;
+  padding-bottom: 10px;
+  width: 130px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  
+  
+}
+.content3 .content3-item3 .food .food-item .img image {
+  width: 130px;
+  height: 130px;
+}
+.content3 .content3-item3 .food .food-item .name {
+  font-weight: blod;
+  font-size: 16px;
+}
+.content3 .content3-item3 .food .food-item .classfly {
+  color: #888;
+}
+.content3 .content3-item3 .food .food-item .monye {
+  font-size: 10px;
+}
+
+.content3 .content3-item3 .food .food-item .cheap {
+  color: #fc938d;
+  border: 1px solid #fc938d;
+  padding: 2px 5px;
+  display: inline-block;
+}
+
+.content4 {
+  padding: 10px;
+}
+.content4 .swiper {
+  height: 116px;
+  width: 100%;
+  text-align: center;
+}
+.content4 swiper-item image {
+  width: 100%;
+  height: 150px;
+}
+
+.content5 {
+  padding: 10px;
+  
+}
+.content5 .content5-item1 {
+  display: flex;
+  padding-bottom: 10px;
+}
+.content5 .content5-item1 .content5-item {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #dddddd;
+}
+.content5 .content5-item:nth-child(4) {
+  border-right: none;
+}
+.content5 .content5-item .name{
+  font-weight: bold;
+  font-size: 16px;
+}
+.content5 .content5-item .text {
+  font-size: 12px;
+  color: #b4b4b4;
+}
+
+.content5 .content5-item.active .name{
+  font-weight: bold;
+  font-size: 16px;
+  color: #f3464a;
+}
+.content5 .content5-item.active .text {
+  font-size: 12px;
+  color: #dddddd;
+  background-color: #f24549;
+  color: #fff;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.content5 .content5-item2 {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.content5 .content5-item2 .img {
+  float: left;
+  width: 40%;
+}
+.content5 .content5-item2 .img image {
+  width: 100%;
+  /* height: 80%; */
+}
+.content5 .content5-item2 .info {
+  float: left;
+  padding-left: 20px;
+  width: 60%;
+  box-sizing: border-box;
+  
+}
+.content5 .content5-item2 .info .name {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.content5 .content5-item2 .info .position {
+  font-size: 12px;
+  color: #888888;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.content5 .content5-item2 .info .monye {
+  font-size: 10px;
+  margin-bottom: 3px;
+}
+
+.content5 .content5-item2 .info .chine {
+  background-color: #fdf4eb;
+  color: #ff8e12;
+  display: inline-block;
+  padding: 0 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.content5 .content5-item2 .info .acrd {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.content5 .content5-item2 .info .acrd2 {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.content5 .content5-item2 .info .acrd text {
+  background-color: #4e3c64;
+  color: #efd9b0;
+  padding: 0 3px;
+  margin-right: 5px;
+}
+.content5 .content5-item2 .info .acrd2 text {
+  background-color: #c6a570;
+  color: #fff;
+  padding: 0 3px;
+  margin-right: 5px;
+}
+
+.content5 .content5-item2 .info .cheap {
+  font-size: 10px;
+  color: #fc938d;
+  margin-bottom: 5px;
+}
+.content5 .content5-item2 .info .cheap .text {
+  display: inline-block;
+  border: 1px solid #fc938d;
+  margin-right: 5px;
+  padding: 0 5px;
+}
+
+/* 秒杀 */
+.content8 .content8-item1 {
+  padding: 10px 10px;
+}
+.content8 .content8-item1 .item-left {
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content8 .content8-item1 .item-left text {
+  font-size: 12px;
+  display: inline-block;
+  background-color: #dfc080;
+  color: #fff;
+  padding: 3px 15px;
+  border-radius: 10px 10px 10px 0;
+}
+.content8 .content8-item1 .item-right {
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 6px;
+}
+
+
+.content8 {
+  background: linear-gradient(#fff, #f4f4f4);
+  padding: 20px 10px;
+  padding-top: 0;
+}
+.content8 .content8-top{
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.content8 .content8-item {
+  white-space: nowrap;
+}
+.content8 .content8-item .scroll-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.content8 .content8-item .scroll-item .img {
+ position: relative；
+}
+.content8 .content8-item .scroll-item .img .all{
+ position: absolute;
+ top: 0;
+ margin: 10px;
+ padding: 0 5px;
+ color: #fff;
+ font-size: 10px;
+ background-color: rgba(0, 0, 0, .5);
+ border-radius: 10px;
+}
+.content8 .content8-item .scroll-item .img image {
+ width: 200px;
+}
+.content8 .content8-item .scroll-item .bottom {
+ background-color: #fff;
+ border-radius: 0 0 10px 10px;
+ padding: 10px 5px;
+}
+.content8 .content8-item .scroll-item .bottom .name {
+ color: #666666;
+ font-size: 12px;
+}
+.content8 .content8-item .scroll-item .bottom .choice {
+ font-size: 14px;
+}
+.content8 .content8-item .scroll-item .bottom .text {
+ font-size: 14px;
+}
+.content8 .content8-item .scroll-item .bottom .text .text1 {
+ font-size: 12px;
+ color: #fa4033;
+
+}
+.content8 .content8-item .scroll-item .bottom .text .text2 {
+ font-size: 20px;
+ color: #fa4033;
+ font-weight:bold; 
+}
+
+.content8 .content8-item .scroll-item .bottom .text .text3 {
+ font-size: 12px;
+ color: #aaaaaa;
+ margin-left: 5px;
+ text-decoration:line-through;
+}
+
+.content8 .content8-item .scroll-item .bottom .text .text4 {
+ font-size: 14px;
+ font-weight:bold; 
+ color: #aaaaaa;
+ text-decoration:line-through;
+}
+
+.content8 .content8-item .scroll-item .bottom .text .text5 {
+ font-size: 10px;
+ display: inline-block;
+ border: 1px solid #fb5346;
+ color: #fb5346;
+ padding: 0 5px;
+ border-radius: 4px;
+ margin-left: 5px;
+}
+.content8 .content8-item .scroll-item .bottom .miaosha {
+ background-color: #ff1c0b;
+ font-size: 10px;
+ color: #fff;
+ text-align: center;
+ padding: 3px 0;
+ border-radius: 10px;
+ margin-top: 5px;
+}
+
+
+

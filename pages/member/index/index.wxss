@@ -1,0 +1,241 @@
+/* pages/member/index/index.wxss */
+.clear {
+  clear: both;
+}
+.content {
+  padding: 0 10px;
+  background-color: #f4f4f4;
+  padding-top: 10px;
+  
+}
+.content1 {
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  /* margin-top: 10px; */
+  border-radius: 10px;
+}
+.content1 .information {
+   float: left;
+}
+.content1 .information .img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content1 .information .img image {
+  width: 50px;
+  height: 50px;
+}
+.content1 .information .username {
+  display: inline-block;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+.content1 .information .username .user {
+  font-size: 14px;
+  font-weight: bold;
+}
+.content1 .information .username .member {
+  display: inline-block;
+  font-size: 12px;
+  color: #9d9d9d;
+}
+.content1 .right {
+  background-color: #fd5342;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  padding: 3px 5px;
+  border-radius: 7px;
+  float: right;
+}
+
+/* 会员特权 */
+.content2 {
+  margin: 20px 0;
+  background: -webkit-linear-gradient(top,#49374d, #1a0c23);
+  color: #fff;
+  padding: 0 25px;
+  height: 83px;
+  border-radius: 20px 20px 0 0;
+}
+.content2 .left {
+  float: left;
+  width: 20%;
+  color: #3f3035;
+  font-weight: bold;
+  /* display: inline-block; */
+  height: 100%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  font-size: 24px;
+  text-align: center;
+  background: -webkit-linear-gradient(top,#fbf0da, #e2bf89);
+}
+.content2 .center{
+  float: left;
+  width: 72%;
+  display: flex;
+  padding: 14px 0;
+  box-sizing: border-box;
+  margin-right: 3px;
+}
+.content2 .center .item{
+  flex: 1;
+  text-align: center;
+}
+.content2 .center .item .img{
+  margin-bottom: 3px;
+}
+.content2 .center .item image{
+  width: 30px;
+  height: 30px;
+}
+.content2 .center .item .text{
+  font-size: 10px;
+  color: #d3bdb0;
+}
+.content2 .right{
+  float: right;
+  /* width: 10%; */
+  padding-top: 37px;
+  
+}
+.content2 .right .sanjiao {
+  border: 8px solid transparent;
+  border-bottom-color: #ebe3be;
+  float: right;
+  
+  transform:rotate(90deg);
+}
+/* .content2 .right .img image{
+  width: 15px;
+  height: 15px;
+} */
+
+.content3 {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.content3 .item {
+  text-align: center;
+  width: 25%;
+  display:inline-block;
+}
+.content3 .item .img image {
+  width: 50px;
+  height: 50px;
+}
+.content3 .item .text {
+  color: #c5c5c5;
+  font-size: 14px;
+}
+
+.content4 {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.content4 .function {
+  font-weight: bold;
+  padding: 10px 10px 10px 0;
+  font-size: 18px;
+}
+.content4 .item {
+  text-align: center;
+  width: 20%;
+  display:inline-block;
+  padding-bottom: 10px;
+}
+.content4 .item .img image {
+  width: 30px;
+  height: 30px;
+}
+.content4 .item .text {
+  color: #a8a8a8;
+  font-size: 10px;
+}
+
+.content5 .evaluate {
+  font-weight: bold;
+  font-size: 18px;
+}
+.content5 .img {
+  text-align: center;
+}
+.content5 .img image {
+  width: 150px;
+  height: 150px;
+}
+
+.content6 .evaluate {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.content6 .popularity .popularity-itema .img {
+  /* width: 100%; */
+}
+.content6 .popularity .popularity-item .img image {
+  width: 100%;
+  /* height: 150px; */
+}
+
+.content6 .popularity .popularity-item {
+  width: 50%;
+  /* display: inline-block; */
+  float: left;
+}
+.content6 .popularity .popularity-item1 {
+  width: 90%;
+  display: inline-block;
+  /* float: left; */
+  padding: 12px 5%;
+}
+.content6 .popularity .popularity-item1 image {
+  width: 100%;
+  height: 100%;
+}
+.content6 .popularity .popularity-item .commen {
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 3px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+.content6 .popularity .popularity-item .box {
+  background-color: #fff;
+  height: 50px;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+}
+.content6 .popularity .popularity-item .user .name {
+  font-size: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content6 .popularity .popularity-item .user .img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 3px;
+}
+.content6 .popularity .popularity-item .user .left {
+  float: left;
+}
+.content6 .popularity .popularity-item .user .img image {
+  width: 25px;
+  height: 25px;
+}
+.content6 .popularity .popularity-item .user .like image {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  padding-top: 5px;
+}
