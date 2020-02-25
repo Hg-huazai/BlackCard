@@ -7,8 +7,12 @@ page {
 }  
 
 .city {
-  background-color: #fff;
-  padding: 20px;
+  /* background-color: #fff; */
+  /* padding: 20px; */
+  /* margin-bottom: 10px; */
+  /* height: 30px; */
+  position: absolute;
+  top: 0;
 }
 .city .city-item {
   display: inline-block;
@@ -19,7 +23,7 @@ page {
   white-space:nowrap;
   overflow:hidden;
   /* background-color: pink; */
-  padding: 5px 0;
+  /* padding: 5px 0; */
   padding-right: 10px;
   position: relative;
 }
@@ -36,11 +40,11 @@ page {
   display: inline-block;
   background-color: #f0f0f0;
   border-radius: 20px;
-  width: 60%;
+  width: 50%;
   margin-left: 10px;
   vertical-align: middle;
   padding: 5px 10px 5px 40px;
-  font-size: 14px;
+  font-size: 12px;
   position: relative;
   /* box-sizing: border-box; */
 }

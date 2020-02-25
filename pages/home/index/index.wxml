@@ -1,5 +1,6 @@
 <!--pages/home/index/index.wxml-->
 <view>
+<<<<<<< HEAD
   <scroll-view scroll-y="true" bindscroll="scrollshow" style="height:{{height}}px;" scroll-top="{{totop}}" scroll-with-animation="true">
     <!-- 地址 -->
     <view class="city">
@@ -26,6 +27,39 @@
           <view class="money">预计一年省：￥ <text>2515</text> </view>
           <button class="member" size="mini" open-type="getUserInfo" bindgetuserinfo="getPerson">开通会员</button>
         </view>
+=======
+  <!-- 自定义头部 -->
+  <view class='nav bg-white' style='height:{{navH}}px'>
+    <view class='nav-title'>
+      <view class="INinputheader">
+        <!-- 地址 -->
+        <view class="city">
+          <navigator class="city-item" url="../city/city">{{city}}
+            <view class="tubiao">
+              <image src="../../../static/img/home/images/tubiao_03.png" mode="aspectFit"></image>
+            </view>
+          </navigator>
+          <input class="input-item" type="text" placeholder="商家、分类、商圈">
+            <image src="../../../static/img/home/images/search_03.png" mode="aspectFit"></image>
+          </input>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 正文 -->
+  <scroll-view class='bg-gray overflow' style='height:calc(100vh - {{navH}}px)' scroll-y>
+    <view class='hidden'>
+       <!-- 小黑卡 不是会员 -->
+  <view class="content1">
+    <view class="information">
+      <view class="img">
+        <image src="../../../static/img/home/images/user.png" mode="aspectFit"></image>
+      </view>
+      <view class="username">
+        <view class="user">小黑卡用户</view>
+        <view class="member">您还不是小黑卡会员哦</view>
+>>>>>>> 3c04c92e30d3f368eb88a199c2ae206788961d83
       </view>
       <view class="discount">
         <view class="discount-left">500+商家 | 买单5折 | 优惠开通</view>
@@ -642,6 +676,7 @@
             <view class="text">全网底价</view>
           </view>
         </view>
+<<<<<<< HEAD
         <view class="clear"></view>
       </navigator>
       <navigator class="content5-item2" url="../details/details">
@@ -724,3 +759,13 @@
     </view>
   </scroll-view>
 </view>
+=======
+      </view>
+      <view class="clear"></view>
+    </navigator>
+  </view>
+
+    </view>
+  </scroll-view>
+</view> 
+>>>>>>> 3c04c92e30d3f368eb88a199c2ae206788961d83

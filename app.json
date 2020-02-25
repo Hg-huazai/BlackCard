@@ -27,7 +27,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "小黑卡",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
   "tabBar": {
     "list": [
@@ -37,6 +38,10 @@
         "iconPath": "static/img/tabbar/icon_01.png",
         "selectedIconPath": "static/img/tabbar/icon_01_active.png"
       },
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 3c04c92e30d3f368eb88a199c2ae206788961d83
       {
         "pagePath": "pages/group/index/index",
         "text": "红包群",
