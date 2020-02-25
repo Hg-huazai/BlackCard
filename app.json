@@ -7,10 +7,18 @@
     "pages/home/xiala/xiala",
     "pages/home/city/city",
     "pages/home/classify/classify",
+    "pages/home/food/food",
+    "pages/home/coffee/coffee",
+    "pages/home/hotpot/hotpot",
+    "pages/home/circle/circle",
+    "pages/home/maioshaall/miaoshaall",
+    "pages/home/all/all",
     "pages/discount/index/index",
     "pages/group/index/index",
     "pages/member/index/index",
     "pages/member/member/member",
+    "pages/member/check/check",
+    "pages/member/wallet/wallet",
     "pages/index/index",
     "pages/logs/logs"
 
@@ -28,12 +36,6 @@
         "text": "5折日历",
         "iconPath": "static/img/tabbar/icon_01.png",
         "selectedIconPath": "static/img/tabbar/icon_01_active.png"
-      },
-      {
-        "pagePath": "pages/discount/index/index",
-        "text": "附近优惠",
-        "iconPath": "static/img/tabbar/icon_02.png",
-        "selectedIconPath": "static/img/tabbar/icon_02_active.png"
       },
       {
         "pagePath": "pages/group/index/index",

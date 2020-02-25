@@ -1,0 +1,6 @@
+<!--pages/member/check/check.wxml-->
+<view>
+  <view class="all">
+    <view class="all-item {{index === current ? 'active' : ''}}" data-current="{{index}}" wx:for="{{list}}" wx:key="{{index}}" bindtap="allactive">{{item.all}}</view>
+  </view>
+</view>

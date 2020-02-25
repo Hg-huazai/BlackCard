@@ -1,0 +1,17 @@
+<!--pages/member/wallet/wallet.wxml-->
+<view>
+  <view class="wallet">
+    <view class="img">
+      <image src="../../../static/img/member/images/money_03.png" ></image>
+    </view>
+    <view class="money"><text>￥</text>0.00</view>
+    <view class="balance">我的余额</view>
+    <view class="return">去提现</view>
+  </view>
+  <view class="detailed">
+    <view class="img">
+      <image src="../../../static/img/member/images/money_07.png" ></image>
+    </view>
+    <view class="text">余额明细</view>
+  </view>
+</view>

@@ -1,0 +1,119 @@
+/* pages/home/circle/circle.wxss */
+.clear {
+  clear: both;
+}
+.scrollx {
+  display: flex;
+  white-space: nowrap;
+  margin: 40rpx 0;
+  margin-bottom: 20rpx;
+  padding: 0 20rpx;
+}
+.scrollx .item image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.scrollx .item .text {
+  font-size: 20rpx;
+}
+.scrollx .item  {
+  text-align: center;
+  display: inline-block;
+}
+
+.food {
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+}
+.food .top {
+  margin-bottom: 20rpx;
+}
+.food .top .text {
+  margin-bottom: 40rpx;
+  display: inline-block;
+  width: 150rpx;
+  background-color: #f6f6f6;
+  margin: 0 20rpx;
+  padding: 15rpx 0;
+  text-align: center;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+}
+
+.content5 .content5-item2 {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.content5 .content5-item2 .img {
+  float: left;
+  width: 40%;
+}
+.content5 .content5-item2 .img image {
+  width: 100%;
+  /* height: 80%; */
+}
+.content5 .content5-item2 .info {
+  float: left;
+  padding-left: 20px;
+  width: 60%;
+  box-sizing: border-box;
+  
+}
+.content5 .content5-item2 .info .name {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.content5 .content5-item2 .info .position {
+  font-size: 12px;
+  color: #888888;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.content5 .content5-item2 .info .monye {
+  font-size: 10px;
+  margin-bottom: 3px;
+}
+
+.content5 .content5-item2 .info .chine {
+  background-color: #fdf4eb;
+  color: #ff8e12;
+  display: inline-block;
+  padding: 0 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.content5 .content5-item2 .info .acrd {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.content5 .content5-item2 .info .acrd2 {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.content5 .content5-item2 .info .acrd text {
+  background-color: #4e3c64;
+  color: #efd9b0;
+  padding: 0 3px;
+  margin-right: 5px;
+}
+.content5 .content5-item2 .info .acrd2 text {
+  background-color: #c6a570;
+  color: #fff;
+  padding: 0 3px;
+  margin-right: 5px;
+}
+
+.content5 .content5-item2 .info .cheap {
+  font-size: 10px;
+  color: #fc938d;
+  margin-bottom: 5px;
+}
+.content5 .content5-item2 .info .cheap .text {
+  display: inline-block;
+  border: 1px solid #fc938d;
+  margin-right: 5px;
+  padding: 0 5px;
+}

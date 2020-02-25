@@ -113,6 +113,48 @@
 					"id": -1,
 					"name": "分类",
 					"pathName": "pages/home/classify/classify",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "food",
+					"pathName": "pages/home/food/food",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "coffee",
+					"pathName": "pages/home/coffee/coffee",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的买单check",
+					"pathName": "pages/member/check/check",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全部商品all",
+					"pathName": "pages/home/all/all",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "钱包",
+					"pathName": "pages/member/wallet/wallet",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "秒杀全部miaoshaall",
+					"pathName": "pages/home/maioshaall/miaoshaall",
 					"scene": null
 				}
 			]

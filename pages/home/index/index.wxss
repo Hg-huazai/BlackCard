@@ -346,6 +346,17 @@ page {
   box-sizing: border-box;
   margin-left: 10px;
 }
+.content3 .content3-item3 .scroll .scroll-item .five  {
+  display: inline-block;
+  width: 50%;
+  margin: 0 25%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
 .content3 .content3-item3 .scroll .scroll-item:nth-child(1)  {
   
 }
@@ -358,7 +369,7 @@ page {
   font-size: 12px;
 }
 .content3 .content3-item3 .food {
-  background-color: pink;
+  /* background-color: pink; */
   width: 100%;
 }
 .content3 .content3-item3 .food .food-box {
@@ -417,6 +428,13 @@ page {
 .content5 .content5-item1 {
   display: flex;
   padding-bottom: 10px;
+}
+.content5 .content5-item1.float {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
 }
 .content5 .content5-item1 .content5-item {
   flex: 1;
@@ -644,6 +662,27 @@ page {
  padding: 3px 0;
  border-radius: 10px;
  margin-top: 5px;
+}
+
+.showtop {
+
+  position: fixed;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  bottom: 60rpx;
+  right: 40rpx;
+}
+.showtop .top {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, .5)
 }
 
 

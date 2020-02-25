@@ -1,0 +1,82 @@
+/* pages/home/maioshaall/miaoshaall.wxss */
+.clear {
+  clear: both;
+}
+.content1 {
+  background-color: #f4f4f4;
+  padding: 20rpx;
+}
+.content1 .item .img image {
+  width: 100%;
+}
+.content1 .item {
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.content1 .item .img {
+  position: relative;
+}
+.content1 .item .img .float {
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  display: inline-block;
+  font-size: 16rpx;
+  color: #fff;
+  border: 2rpx solid #fff;
+  border-radius: 30rpx;
+  padding: 10rpx 20rpx;
+  background-color: rgba(0, 0, 0, .5)
+
+
+}
+.content1 .item .info {
+  padding: 20rpx;
+  border-radius: 0 0 30rpx 30rpx;
+}
+.content1 .item .info .name {
+  color: #dfdfdf;
+  font-size: 22rpx;
+}
+.content1 .item .info .choice {
+  font-size: 26rpx;
+  margin-bottom: 15rpx;
+}
+.content1 .item .info .bottom .left {
+  float: left;
+}
+.content1 .item .info .bottom .left .text1 {
+  font-size: 20rpx;
+  color: #fa4033;
+}
+.content1 .item .info .bottom .left .text2 {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #fa4033;
+  margin-right: 10rpx;
+}
+.content1 .item .info .bottom .left .text3 {
+  font-size: 20rpx;
+  color: #aaaaaa;
+  text-decoration:line-through;
+}
+.content1 .item .info .bottom .left .text4 {
+  font-size: 28rpx;
+  margin-right: 10rpx;
+  color: #aaaaaa;
+  text-decoration:line-through;
+}
+.content1 .item .info .bottom .left .text5 {
+  font-size: 18rpx;
+  border: 2rpx solid #fa5448;
+  color: #fa5448;
+  padding: 4rpx 10rpx;
+}
+.content1 .item .info .bottom .right {
+  float: right;
+  font-size: 22rpx;
+  color: #fff;
+  background-color: #fe3815;
+  padding: 15rpx 40rpx;
+  border-radius: 60rpx;
+}

@@ -1,0 +1,115 @@
+<!--pages/home/maioshaall/miaoshaall.wxml-->
+<view>
+  <view class="content1">
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/home/images/miaosha_04_03.png" mode="widthFix"/>
+        <view class="float">仅剩198</view>
+      </view>
+      <view class="info">
+        <view class="name">菜桂芳(怡海港店)</view>
+        <view class="choice">桂兰饮品三选一</view>
+        <view class="bottom">
+          <view class="left">
+            <text class="text1">￥</text>
+            <text class="text2">1.88</text>
+            <text class="text3">￥</text>
+            <text class="text4">16.00</text>
+            <text class="text5">分享赚￥0.44</text>
+          </view>
+          <view class="right">02:29:47.9 限时秒杀</view>
+          <view class="clear"></view>
+        </view>
+      </view>
+
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/home/images/miaosha_04_03.png" mode="widthFix"/>
+        <view class="float">仅剩198</view>
+      </view>
+      <view class="info">
+        <view class="name">菜桂芳(怡海港店)</view>
+        <view class="choice">桂兰饮品三选一</view>
+        <view class="bottom">
+          <view class="left">
+            <text class="text1">￥</text>
+            <text class="text2">1.88</text>
+            <text class="text3">￥</text>
+            <text class="text4">16.00</text>
+            <text class="text5">分享赚￥0.44</text>
+          </view>
+          <view class="right">02:29:47.9 限时秒杀</view>
+          <view class="clear"></view>
+        </view>
+      </view>
+
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/home/images/miaosha_04_06.png" mode="widthFix"/>
+        <view class="float">仅剩198</view>
+      </view>
+      <view class="info">
+        <view class="name">菜桂芳(怡海港店)</view>
+        <view class="choice">桂兰饮品三选一</view>
+        <view class="bottom">
+          <view class="left">
+            <text class="text1">￥</text>
+            <text class="text2">1.88</text>
+            <text class="text3">￥</text>
+            <text class="text4">16.00</text>
+            <text class="text5">分享赚￥0.44</text>
+          </view>
+          <view class="right">02:29:47.9 限时秒杀</view>
+          <view class="clear"></view>
+        </view>
+      </view>
+
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/home/images/miaosha_04_03.png" mode="widthFix"/>
+        <view class="float">仅剩198</view>
+      </view>
+      <view class="info">
+        <view class="name">菜桂芳(怡海港店)</view>
+        <view class="choice">桂兰饮品三选一</view>
+        <view class="bottom">
+          <view class="left">
+            <text class="text1">￥</text>
+            <text class="text2">1.88</text>
+            <text class="text3">￥</text>
+            <text class="text4">16.00</text>
+            <text class="text5">分享赚￥0.44</text>
+          </view>
+          <view class="right">02:29:47.9 限时秒杀</view>
+          <view class="clear"></view>
+        </view>
+      </view>
+
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/home/images/miaosha_04_06.png" mode="widthFix"/>
+        <view class="float">仅剩198</view>
+      </view>
+      <view class="info">
+        <view class="name">菜桂芳(怡海港店)</view>
+        <view class="choice">桂兰饮品三选一</view>
+        <view class="bottom">
+          <view class="left">
+            <text class="text1">￥</text>
+            <text class="text2">1.88</text>
+            <text class="text3">￥</text>
+            <text class="text4">16.00</text>
+            <text class="text5">分享赚￥0.44</text>
+          </view>
+          <view class="right">02:29:47.9 限时秒杀</view>
+          <view class="clear"></view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+</view>

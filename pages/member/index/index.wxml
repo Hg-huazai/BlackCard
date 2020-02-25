@@ -50,30 +50,30 @@
     <view class="clear"></view>
   </view>
   <view class="content3">
-    <view class="item">
+    <navigator class="item" url="../check/check">
       <view class="img">
         <image src="../../../static/img/member/images/content3_03.png" mode="aspectFit"></image>
       </view>
       <view class="text">我的买单</view>
-    </view>
-    <view class="item">
+    </navigator>
+    <navigator class="item" url="../setmeal/setmeal">
       <view class="img">
         <image src="../../../static/img/member/images/content3_05.png" mode="aspectFit"></image>
       </view>
-      <view class="text">我的买单</view>
-    </view>
-    <view class="item">
+      <view class="text">我的套餐</view>
+    </navigator>
+    <navigator class="item" url="../red/red">
       <view class="img">
         <image src="../../../static/img/member/images/content3_07.png" mode="aspectFit"></image>
       </view>
-      <view class="text">我的买单</view>
-    </view>
-    <view class="item">
+      <view class="text">我的红包</view>
+    </navigator>
+    <navigator class="item" url="../wallet/wallet">
       <view class="img">
         <image src="../../../static/img/member/images/content3_09.png" mode="aspectFit"></image>
       </view>
-      <view class="text">我的买单</view>
-    </view>
+      <view class="text">我的钱包</view>
+    </navigator>
   </view>
   <view class="content4">
     <view class="function">更多功能</view>
@@ -148,7 +148,7 @@
   <!-- 人气评价 -->
   <view class="content6">
     <view class="evaluate">人气评价</view>
-    <view class="popularity">
+    <!-- <view class="popularity">
       <view class="popularity-item">
         <view class="popularity-item1">
           <view class="img">
@@ -288,6 +288,7 @@
         </view>
       </view>
       <view class="clear"></view>
-    </view>
+    </view> -->
+    <!-- <water/> -->
   </view>
 </view>

@@ -1,0 +1,86 @@
+<!--pages/home/coffee/coffee.wxml-->
+<view>
+  <!-- 头部滚动 -->
+  <scroll-view scroll-x class="scrollx">
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/home/classify/images/foods_03.png" mode="widthFix"></image>
+      </view>
+      <view class="text">全部</view>
+    </view>
+    <view class="item">
+      <view class="img">
+        <image src="../../../static/img/home/classify/images/foods_03.png" mode="widthFix"></image>
+      </view>
+      <view class="text">咖啡/奶茶</view>
+    </view>
+
+  </scroll-view>
+
+  <!-- 列表 -->
+  <view class="food">
+    <view class="top">
+      <view class="text">黑卡5折</view>
+      <view class="text">附近</view>
+      <view class="text">新店</view>
+    </view>
+    <view class="content5">
+       <!-- 列表 -->
+      <navigator class="content5-item2" url="../details/details">
+        <view class="img">
+          <image src="../../../static/img/home/images/lunbo_07.png" mode="widthFix"></image>
+        </view>
+        <view class="info">
+          <view class="name">毛家菜馆(湘菜)</view>
+          <view class="position">湘菜 | 陌江路</view>
+          <view class="monye">评分5.0 | ￥50/人</view>
+          <view class="chine">经典传承! 无法抵挡地道的美味</view>
+          <view class="acrd"><text>黑卡5折</text>买单5.9折</view>
+          <view class="acrd2"><text>平日折扣</text>买单7.5折</view>
+          <view class="cheap">
+            <view class="text">返现</view>
+            <view class="text">全网底价</view>
+          </view>
+        </view>
+        <view class="clear"></view>
+      </navigator>
+      <navigator class="content5-item2" url="../details/details">
+        <view class="img">
+          <image src="../../../static/img/home/images/lunbo_07.png" mode="widthFix"></image>
+        </view>
+        <view class="info">
+          <view class="name">毛家菜馆(湘菜)</view>
+          <view class="position">湘菜 | 陌江路</view>
+          <view class="monye">评分5.0 | ￥50/人</view>
+          <view class="chine">经典传承! 无法抵挡地道的美味</view>
+          <view class="acrd"><text>黑卡5折</text>买单5.9折</view>
+          <view class="acrd2"><text>平日折扣</text>买单7.5折</view>
+          <view class="cheap">
+            <view class="text">返现</view>
+            <view class="text">全网底价</view>
+          </view>
+        </view>
+        <view class="clear"></view>
+      </navigator>
+      <navigator class="content5-item2" url="../details/details">
+        <view class="img">
+          <image src="../../../static/img/home/images/lunbo_07.png" mode="widthFix"></image>
+        </view>
+        <view class="info">
+          <view class="name">毛家菜馆(湘菜)</view>
+          <view class="position">湘菜 | 陌江路</view>
+          <view class="monye">评分5.0 | ￥50/人</view>
+          <view class="chine">经典传承! 无法抵挡地道的美味</view>
+          <view class="acrd"><text>黑卡5折</text>买单5.9折</view>
+          <view class="acrd2"><text>平日折扣</text>买单7.5折</view>
+          <view class="cheap">
+            <view class="text">返现</view>
+            <view class="text">全网底价</view>
+          </view>
+        </view>
+        <view class="clear"></view>
+      </navigator>
+    </view>
+  </view>
+</view>
+

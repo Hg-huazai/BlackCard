@@ -1,0 +1,59 @@
+/* pages/member/wallet/wallet.wxss */
+.wallet {
+  margin: 40rpx;
+  text-align: center;
+  background: -webkit-linear-gradient(top,#3f314b, #1d1125);
+  /* height: 700rpx; */
+  border-radius: 40rpx;
+  padding: 70rpx 0;
+  box-sizing: border-box;
+}
+.wallet .img {
+  display: inline-block;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.wallet .img image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.wallet .money {
+  color: #ffeed2;
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+}
+.wallet .money text {
+  font-size: 30rpx;
+  margin-right: 10rpx;
+}
+.wallet .balance {
+  font-size: 30rpx;
+  color: #ffeed2;
+  margin-bottom: 80rpx;
+}
+.wallet .return {
+  font-size: 28rpx;
+  background-color: #fa4033;
+  color: #fff;
+  display: inline-block;
+  padding: 10rpx 40rpx;
+  border-radius: 30rpx;
+}
+.detailed {
+  margin: 40rpx;
+}
+.detailed .img {
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 15rpx;
+}
+.detailed .img image {
+   width: 50rpx;
+   height: 50rpx;
+}
+.detailed .text {
+   display: inline-block;
+   vertical-align: middle;
+}
